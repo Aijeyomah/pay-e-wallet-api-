@@ -1,0 +1,50 @@
+{
+  "name": "e-wallet",
+  "version": "1.0.0",
+  "description": "An e-wallet",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc --reporter=html --reporter=text mocha -r esm test/**/*.test.js",
+    "test-watch": "nodemon --exec npm test",
+    "lint": "eslint --fix --ext .js ./",
+    "start": "nodemon -r esm .",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "pre-push": "npm run lint"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aijeyomah/E-wallet.git"
+  },
+  "author": "Aijeyomah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aijeyomah/E-wallet/issues"
+  },
+  "homepage": "https://github.com/Aijeyomah/E-wallet#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.0",
+    "jest": "^26.6.0",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.15",
+    "app-root-path": "^3.0.0",
+    "bluebird": "^3.7.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "pg-promise": "^10.6.1",
+    "winston": "^3.3.3"
+  }
+}
