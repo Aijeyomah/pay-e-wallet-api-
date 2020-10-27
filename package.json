@@ -9,7 +9,16 @@
     "lint": "eslint --fix --ext .js ./",
     "start": "nodemon -r esm .",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
+    "report-coverage": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls",
+    "migrate": "db-migrate --migrations-dir app/db/migrations",
+    "migrate:up": "npm run migrate up",
+    "migrate:down": "npm run migrate down",
+    "migrate:reset": "npm run migrate reset",
+    "migrate:create": "npm run migrate create",
+    "seed:create": "npm run migrate create:seeds",
+    "seed:up": "npm run migrate up:seeds",
+    "seed:down": "npm run migrate down:seeds",
+    "seed:reset": "npm run migrate reset:seeds"
   },
   "husky": {
     "hooks": {
@@ -40,13 +49,21 @@
   "dependencies": {
     "@types/jest": "^26.0.15",
     "app-root-path": "^3.0.0",
+    "bcrypt": "^5.0.0",
     "bluebird": "^3.7.2",
+    "db-migrate-pg": "^1.2.2",
     "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
     "esm": "^3.2.25",
     "express": "^4.17.1",
+    "js-sha256": "^0.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
+    "passport-google-oauth": "^2.0.0",
     "pg-promise": "^10.6.1",
+    "uuid": "^8.3.1",
     "winston": "^3.3.3"
   }
 }

@@ -11,7 +11,7 @@ const appConfig = (app) => {
 
   // It parses incoming requests with urlencoded payloads and is based on body-parser.
   app.use(urlencoded({ extended: true }));
-
+  
   // add an entry route
   app.get('/', (req, res) => {
     res.send('Welcome to e-wallet app');
