@@ -1,6 +1,7 @@
 import { json, urlencoded } from 'express';
 import morgan from 'morgan';
 import config from './env';
+import authRoute from './../app/routes/v1/admin'
 
 const appConfig = (app) => {
   // integrate winston logger with morgan
@@ -17,6 +18,8 @@ const appConfig = (app) => {
     res.send('Welcome to e-wallet app');
   });
 
+  app.use("/api/v1", authRoute);
+  
   // server listens for connection
   const port = config.PORT || 4000;
   app.listen(port, () => {

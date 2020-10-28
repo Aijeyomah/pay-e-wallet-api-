@@ -1,4 +1,4 @@
-CREATE TYPE user_role AS ENUM (
+CREATE TYPE user_roles AS ENUM (
   'super admin',
   'staff',
   'user'
@@ -12,8 +12,8 @@ CREATE TABLE IF NOT EXISTS users(
     phone_number INT,
     salt VARCHAR(100) NOT NULL,
     profile_pics VARCHAR,
-    role user_role NOT NULL DEFAULT ('user'),
+    role user_roles NOT NULL DEFAULT ('user'),
     is_active BOOLEAN,
-    created_at TIMESTAMPTZ DEFAULT NOW(),
-    updated_at TIMESTAMPTZ DEFAULT NOW()
+    created_at TIMESTAMPTZ ,
+    updated_at TIMESTAMPTZ 
  );

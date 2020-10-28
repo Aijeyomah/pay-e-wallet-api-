@@ -7,7 +7,9 @@ const {
   AUTH_REQUIRED,
   INVALID_PERMISSION,
   INVALID_CREDENTIALS,
-  ACCESS_REVOKED
+  ACCESS_REVOKED,
+  EMAIL_CONFLICT,
+  STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG
 } = constants;
 
 export default {
@@ -17,5 +19,8 @@ export default {
   accessRevoked: new ApiError({ message: ACCESS_REVOKED, status: 403 }),
   inValidLogin: new ApiError({ message: INVALID_CREDENTIALS, status: 401 }),
   conflictSignupError: new ApiError({message: INVALID_CREDENTIALS, status: 409}),
-  authRequired: new ApiError({ message: AUTH_REQUIRED, status: 401 })
+  authRequired: new ApiError({ message: AUTH_REQUIRED, status: 401 }),
+  emailConflict: new ApiError({ status: 409, message: EMAIL_CONFLICT }),
+  verificationError:new ApiError({ message: STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG })
+
 };

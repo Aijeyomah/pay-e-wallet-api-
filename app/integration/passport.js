@@ -1,44 +1,41 @@
 // import passport from 'passport';
 // import GoogleStrategy from 'passport-google-oauth';
 // import config from '../../config';
-// import app from '../../config/app';
+// import db from '../db';
+// import { fechUserByEmail } from '../services/user';
+// import query from '../db/queries/users'
+// import {errorResponse, generateId, successResponse} from '../utils/helpers';
+// import { genericErrors } from '../utils';
 
 // passport.use(
-//   new GoogleStrategy(
-//     {
+//   new GoogleStrategy({
 //       //options for the google strat
 //       callbackURL: "/auth/google/redirect",
 //       clientID: config.E_WALLET_GOOGLE_OAUTH_CLIENT_ID,
 //       clientSecret: config.E_WALLET_GOOGLE_OAUTH_SECRET,
 //     },
-//     async (accessToken, refreshToken, profile, done) => {
+//     async (_accessToken, _refreshToken, profile, done) => {
 //       try {
-//         const user = await userService.checkIfUserExist(
-//           profile.emails[0].value
-//         );
+//         const user = await fechUserByEmail(req.body.email);
 //         if (user) {
 //           done(null, user);
 //         } else {
-//           const id = uuidv4();
+//           const id = generateId();
 //           const salt = process.env.SALT;
 //           const password = process.env.PASSWORD;
 //           const is_active = true;
-//           const payload = [
-//             id,
-//             profile.name.familyName,
-//             profile.name.givenName,
-//             profile.emails[0].value,
-//             password,
-//             salt,
-//             is_active,
-//           ];
-//           const newUser = await db.any(userQuery.createFaceBookUser, payload);
-//           return done(null, newUser[0]);
+//           const { familyName, givenName } = profile.name
+//           const payload = [id, familyName, givenName, profile.emails[0].value, password, salt, is_active,];
+//           await db.any(query.create_users, payload);
+//           return successResponse(res, {
+//             message: CREATE_USER_SUCCESSFULLY,
+//             data: { id, first_name, last_name, email, role },
+//             code: 201,
+//           });
 //         }
-//       } catch (error) {
-//         done(error);
 //       }
-//     }
-//   )
-// );
- 
+//          catch (e) {
+//           next(errorResponse(req, res, genericErrors.errorCreatingStaff));
+//         }
+      
+// }));

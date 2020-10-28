@@ -6,7 +6,6 @@ import DBError from "./error/db.error";
 
 
 export {
-  Helper,
   constants,
   genericErrors,
   ApiError,

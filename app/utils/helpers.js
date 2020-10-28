@@ -30,6 +30,7 @@ const apiErrLogMessanger = (error, req) => {
 const moduleErrLogMessager = (error) => {
   return logger.error(`${error.name} - ${error.status} - ${error.message}`);
 };
+
 const errorResponse = (error, req, res) => {
   const aggregateError = { ...serverError, ...error };
   apiErrLogMessanger(aggregateError, req);
@@ -139,6 +140,7 @@ const addTokenToUserData = (user, is_admin = false) => {
 
 export {
   successResponse,
+  moduleErrLogMessager,
   errorResponse,
   makeError,
   hashPassword,
