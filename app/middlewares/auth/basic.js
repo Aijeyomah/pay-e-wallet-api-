@@ -1,6 +1,6 @@
 import { genericErrors, constants, ApiError } from "../../utils";
 import { errorResponse, moduleErrLogMessager, verifyToken } from "../../utils/helpers";
-import { fechUserByEmail } from '../../services/user';
+import { fetchAdminByEmail, fetchAdminById } from '../../services/admin';
 import { signUpSchema } from "../../validations/index";
 
 
@@ -57,12 +57,13 @@ const authenticate = (req, res, next) => {
 
 const checkIfUserExist = async (req, res, next) => {
   try {
-    const user = await fechUserByEmail(req.body.email);
+    const user = await fetchAdminByEmail(req.body.email);
     if (user) {
       return errorResponse(req, res, genericErrors.emailConflict);
     }
     next();
   } catch (error) {
+    console.log(error);
     error.status = STAFF_EMAIL_EXIST_VERIFICATION_FAIL;
     moduleErrLogMessager(error);
     return errorResponse(req, res, genericErrors.verificationError);
@@ -94,7 +95,7 @@ const validateCreateUserProfile = async(req, res, next) => {
    */
   const StaffLoginEmailvalidator = async(req, res, next) => {
     try {
-      const userDetail = await fechUserByEmail(req.body.email);
+      const userDetail = await fetchAdminById(req.body.email);
       if (!userDetail) {
         return errorResponse(req, res, genericErrors.inValidLogin);
       }

@@ -1,8 +1,10 @@
+import moment from 'moment';
 import db from '../db';
-import query from '../db/queries/users';
-import { generateId } from '../utils/helpers';
+import query from '../db/queries/auth';
+import { moduleErrLogMessager } from '../utils/helpers';
 
-const { create_users } = query;
+
+const { createAdmin } = query;
 /**
 /**
  * Contains a schema that describes the user resource on the app.
@@ -18,7 +20,7 @@ class UserModel {
    * @constructor UserModel
    */
   constructor(options) {
-    this.id = generateId;
+    this.id = options.id;
     this.first_name = options.firstName;
     this.last_name = options.lastName;
     this.email = options.email;
@@ -28,26 +30,33 @@ class UserModel {
     this.role = options.role;
     this.profile_pics = options.profilePics;
     this.is_active = options.isActive;
-    this.created_at = options.createdAt;
-    this.updated_at = options.updatedAt;
+    this.updated_at = moment();
   }
 
   async save() {
-    db.oneOrNone(create_users, [
+    try {
+     return db.oneOrNone(createAdmin, [
       this.id,
       this.first_name,
       this.last_name,
       this.email,
+      this.phone_number,
       this.password,
       this.salt,
-      this.phone_number,
       this.role,
-      this.profile_pics,
       this.is_active,
-      this.created_at,
       this.updated_at,
     ]);
-  }
+    } catch (error) {
+      const dbError = new DBError({
+        status: '' ,
+        message: e.message
+      });
+      moduleErrLogMessager(dbError);
+      throw dbError;
+    }  
+    
+  } 
 }
 
 export default UserModel;

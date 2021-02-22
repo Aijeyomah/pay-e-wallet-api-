@@ -1,8 +1,12 @@
 import { json, urlencoded } from 'express';
 import morgan from 'morgan';
 import config from './env';
-import authRoute from './../app/routes/v1/admin'
+import authRoute from '../app/routes/v1/admin'
+import {genericErrors, constants} from '../app/utils'
+import { errorResponse , successResponse} from '../app/utils/helpers';
 
+const { notFoundApi } = genericErrors
+const { WELCOME } = constants;
 const appConfig = (app) => {
   // integrate winston logger with morgan
   app.use(morgan('combined', { stream: logger.stream }));
@@ -15,10 +19,15 @@ const appConfig = (app) => {
   
   // add an entry route
   app.get('/', (req, res) => {
-    res.send('Welcome to e-wallet app');
+    successResponse(res, { message: WELCOME })
   });
-
   app.use("/api/v1", authRoute);
+
+// catches 404 errors and forwards them to error handlers
+  app.use((req, res, next) => next(notFoundApi));
+
+// handles all forwarded errors
+  app.use((err, req, res, next) => errorResponse(req, res, err));
   
   // server listens for connection
   const port = config.PORT || 4000;

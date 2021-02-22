@@ -5,7 +5,8 @@ export const signUpSchema = Joi.object({
   firstName: textSchema(Joi, "first_name", 32, 2),
   lastName: textSchema(Joi, "last_name", 32, 2),
   email: emailSchema(Joi),
-  password: textSchema(Joi, "password", 100, 5)
+  password: textSchema(Joi, "password", 100, 5),
+  role: textSchema(Joi, "role", 10, 5)
 });
 
 export const loginSchema = Joi.object({

@@ -4,7 +4,8 @@ import jwt from "jsonwebtoken";
 import { v4 as uuidV4 } from "uuid";
 import config from "./../../config/";
 import genericErrors from "./error/generic";
-import { Helper, constants, DBError, ModuleError } from "../utils";
+import {  constants, DBError, ModuleError } from "../utils";
+import db from "../db";
 
 const { SUCCESS_RESPONSE, SUCCESS, FAIL } = constants;
 const { serverError } = genericErrors;
@@ -23,7 +24,8 @@ const successResponse = (
 
 const apiErrLogMessanger = (error, req) => {
   return logger.error(
-    `${error.name} - ${error.status} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`
+    `${error.name} - ${error.status} - ${error.errors} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip} 
+    `
   );
 };
 
@@ -31,9 +33,10 @@ const moduleErrLogMessager = (error) => {
   return logger.error(`${error.name} - ${error.status} - ${error.message}`);
 };
 
-const errorResponse = (error, req, res) => {
+const errorResponse = (req, res, error) => {
   const aggregateError = { ...serverError, ...error };
   apiErrLogMessanger(aggregateError, req);
+
   return res.status(aggregateError.status).json({
     status: FAIL,
     message: aggregateError.message,
@@ -57,6 +60,25 @@ const makeError = ({ error, status, errors }, isDBError = true) => {
  */
 const generateId = () => {
   return uuidV4();
+};
+
+/**
+ * @returns - a unique identification number
+ */
+const generateUniqueId = (prefix) => {
+  return `${prefix}-${Math.random().toString(10).substr(2, 5)}`
+};
+
+/** regenerate id if it already exist in the db;
+ * @returns - a unique identification number
+ */
+const  regenerateUniqueId = async(prefix, query) => {
+  const id = generateUniqueId(prefix);
+  const existingId = await db.oneOrNone(query, [id])
+  if (!existingId) {
+    return id;
+  }
+  regenerateUniqueId(prefix, query);
 };
 
 /**
@@ -97,7 +119,7 @@ const hashPassword = (password) => {
  * @returns {Boolean} - returns a true or false, depending on the outcome of the comparison.
  */
 const compareHash = (plain, hash, salt) => {
-  const hashMatch = Helper.generateHash(salt, plain);
+  const hashMatch = generateHash(salt, plain);
   return hash === hashMatch;
 };
 
@@ -149,4 +171,5 @@ export {
   generateToken,
   verifyToken,
   addTokenToUserData,
+  regenerateUniqueId
 };
