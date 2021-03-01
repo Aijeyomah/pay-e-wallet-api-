@@ -24,13 +24,13 @@ const successResponse = (
 
 const apiErrLogMessanger = (error, req) => {
   return logger.error(
-    `${error.name} - ${error.status} - ${error.errors} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip} 
+    `${error.name} - ${error.status} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip} 
     `
   );
 };
 
 const moduleErrLogMessager = (error) => {
-  return logger.error(`${error.name} - ${error.status} - ${error.message}`);
+  return logger.error(`${error.name} - ${error.status} - ${error.message} - ${error.stack}`);
 };
 
 const errorResponse = (req, res, error) => {

@@ -21,11 +21,11 @@ const consoleOptions = {
 };
 
 /**
- * Used to create logger config options based on the current environment.
- * @param {String} env - Node Environment value.
- * @returns { Object } An object containing the logger options.
- */
-const makeOptions = (env) => {
+* Used to create logger config options based on the current environment.
+* @param {String} env - Node Environment value.
+* @returns { Object } An object containing the logger options.
+*/
+const makeOptions = env => {
   let options = null;
   switch (env) {
     case 'test':
@@ -33,31 +33,43 @@ const makeOptions = (env) => {
         file: {
           ...fileOptions,
           filename: `${logDir}/test.log`,
-          maxFiles: 50,
-        },
+          maxFiles: 50
+        }
       };
       break;
     case 'production':
       options = {
         file: {
           ...fileOptions,
-          maxFiles: 600,
+          maxFiles: 600
         },
         console: {
           ...consoleOptions,
-          level: 'error',
-        },
+          level: 'error'
+        }
       };
       break;
     default:
       options = {
         file: fileOptions,
-        console: consoleOptions,
+        console: consoleOptions
       };
   }
   return options;
 };
 
+/**
+ * Used to create logger config options based on the current environment.
+ * @param {String} env - Node Environment value.
+ * @returns { Object } An object containing the logger options.
+ */
+
+const myFormat = winston.format.printf(info => {
+  if (info instanceof Error) {
+    return `${info.timestamp} [${info.label}] ${info.level}: ${info.message} ${info.stack}`;
+  }
+  return `[${new Date(info.timestamp).toUTCString()}] - ${info.level}: ${info.message})`
+})
 /**
  * Creates a logger.
  * @param {String} env - Node Environment value.
@@ -70,11 +82,7 @@ const initLogger = (env) => {
     format: winston.format.combine(
       winston.format.timestamp(),
       winston.format.colorize(),
-      winston.format.printf(
-        (msg) => `[${new Date(msg.timestamp).toUTCString()}] - ${msg.level}: ${
-          msg.message
-        }`
-      )
+      myFormat
     ),
     transports: [
       new winston.transports.File(file),

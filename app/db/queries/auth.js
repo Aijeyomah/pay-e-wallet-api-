@@ -28,13 +28,41 @@ export default {
   WHERE
     id = $1
   `,
-  createUsers: `INSERT INTO customers(
+  createUser: `INSERT INTO users(
     id,
+    first_name,
+    last_name,
+    email,
     phone_number,
-    step
-  )VALUES($1, $2, $3)
+    password,
+    salt
+  )VALUES($1, $2, $3, $4, $5, $6, $7)  RETURNING id, first_name, last_name, email, phone_number
+  `,
+  getUserByEmail: `
+  SELECT
+	  *
+  FROM
+	  users
+  WHERE
+    email = $1
+  `,
+  getUserById: `
+  SELECT
+	  *
+  FROM
+	  users
+  WHERE
+    id = $1
+  `,
+  getUserByPhoneNumber: `
+  SELECT
+	  *
+  FROM
+	  users
+  WHERE
+    phone_number = $1
   `
-  
+
 };
 
 

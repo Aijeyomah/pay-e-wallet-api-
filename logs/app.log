@@ -1,797 +1,1060 @@
-[Wed, 21 Oct 2020 10:34:20 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Fri, 23 Oct 2020 09:02:12 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Fri, 23 Oct 2020 13:48:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:27:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:33:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:00 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:03 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:05 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:11 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:15 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:30 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:33 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:36 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:37 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:42 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:51 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:53 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:34:58 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:02 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:03 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:04 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:06 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:08 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:09 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:14 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:18 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:20 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:35 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:35:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:56:23 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 18:56:52 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:18:56:52 +0000] "GET /auth/google/redirect HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:01:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:01:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:01:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:01:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:02:03 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:02:03 +0000] "GET /auth/google/redirect HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:02:04 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:02:04 +0000] "GET /auth/google/redirect HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:04:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:04:14 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:04:29 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:04:29 +0000] "GET /auth/google/redirect HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:04:30 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:04:30 +0000] "GET /auth/google/redirect HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:06:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:06:24 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:06:24 +0000] "GET /auth/google/redirect HTTP/1.1" 200 23 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:06:24 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:06:24 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:7080/auth/google/redirect" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:06:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:06:39 GMT] - [31merror[39m: uncaughtException: ap is not defined
-/Users/aijey_omah/Documents/clock/E-wallet/config/app.js:1
-ReferenceError: ap is not defined
-    at appConfig (/Users/aijey_omah/Documents/clock/E-wallet/config/app.js:20:3)
-    at Object.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/index.js:12:1)
-    at Generator.next (<anonymous>)
-[Mon, 26 Oct 2020 19:06:44 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:08:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:12 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:15 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:25 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:28 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:32 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:36 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:11:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:14:19 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:15:00 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:15:35 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:16:53 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:08 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:09 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:14 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:50 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:54 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:17:58 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:39:28 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:39:35 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:39:35 +0000] "GET /auth/google/redirect HTTP/1.1" 404 159 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:39:45 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:39:45 +0000] "GET / HTTP/1.1" 200 23 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:40:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:40:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:40:53 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:40:53 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:40:54 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:40:54 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:40:55 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:40:55 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:43:05 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:43:05 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:43:59 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:44:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:44:14 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:48:13 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:48:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:48:14 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:48:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:49:42 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:49:57 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:49:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:49:58 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:49:58 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:51:03 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:52:30 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:52:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:52:31 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:52:31 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:53:36 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:53:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:53:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:54:10 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:54:10 +0000] "GET / HTTP/1.1" 500 1502 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:54:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:54:47 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:54:47 +0000] "GET / HTTP/1.1" 500 1503 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:55:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:00 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:06 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:16 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:20 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:26 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:56:26 +0000] "GET / HTTP/1.1" 500 1503 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:56:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:51 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:56:54 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:57:08 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:57:12 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:57:12 +0000] "GET / HTTP/1.1" 500 1502 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:57:35 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 19:57:49 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:57:49 +0000] "GET / HTTP/1.1" 200 1670 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 19:57:59 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:19:57:59 +0000] "GET /auth/google HTTP/1.1" 404 150 "http://localhost:7080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 20:00:41 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:20:00:41 +0000] "GET / HTTP/1.1" 200 1676 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 20:00:52 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 20:00:57 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:20:00:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 20:00:59 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:20:00:59 +0000] "GET /api/v1/auth/google HTTP/1.1" 404 157 "http://localhost:7080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 20:04:10 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 20:04:47 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 20:04:51 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:20:04:51 +0000] "GET /api/v1/auth/google HTTP/1.1" 404 157 "http://localhost:7080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 20:05:59 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 20:20:33 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 20:20:42 GMT] - [32minfo[39m: ::1 - - [26/Oct/2020:20:20:42 +0000] "GET /api/v1/auth/google HTTP/1.1" 404 157 "http://localhost:7080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36"
-
-[Mon, 26 Oct 2020 21:14:10 GMT] - [31merror[39m: uncaughtException: authRoute is not defined
-/Users/aijey_omah/Documents/clock/E-wallet/config/app.js:1
-ReferenceError: authRoute is not defined
-    at appConfig (/Users/aijey_omah/Documents/clock/E-wallet/config/app.js:15:21)
-    at Object.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/index.js:13:1)
-    at Generator.next (<anonymous>)
-[Mon, 26 Oct 2020 21:14:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:14:28 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:22:16 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:22:27 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:22:58 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:23:11 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:23:16 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:23:20 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:23:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:26:48 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:26:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 26 Oct 2020 21:27:12 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:47:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:49:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:49:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:50:42 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:50:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:50:47 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:50:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:50:53 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:50:59 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:02 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:04 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:05 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:07 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:09 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:16 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:51:19 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:54:08 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:54:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:55:12 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 10:55:12 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:10:55:12 +0000] "GET / HTTP/1.1" 500 2103 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 10:56:51 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:57:00 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:57:05 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:57:10 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:57:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:57:17 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 10:57:17 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:10:57:17 +0000] "GET / HTTP/1.1" 500 2103 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 10:57:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 10:57:48 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 10:57:48 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:10:57:48 +0000] "GET / HTTP/1.1" 500 2103 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 10:58:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:01:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:01:32 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 11:01:32 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:11:01:32 +0000] "GET / HTTP/1.1" 500 2103 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 11:01:33 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 11:01:33 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:11:01:33 +0000] "GET / HTTP/1.1" 500 2103 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 11:01:33 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 11:01:33 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:11:01:33 +0000] "GET / HTTP/1.1" 500 2103 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 11:01:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:03:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:03:33 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:03:36 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:03:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:03:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:03:42 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:03:44 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:06:11 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:06:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:06:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:06:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:06:47 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 11:06:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:19:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:22:09 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 12:23:02 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:23:02 +0000] "POST /api/v1/auth/signup HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:24:52 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:24:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:24:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:25:03 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 12:25:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:25:33 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:25:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:25:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:25:44 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - undefined - undefined - undefined
-[Tue, 02 Feb 2021 12:25:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:32:07 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:32:16 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:32:18 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:32:32 GMT] - [31merror[39m: ApiError - 400 - first_name is required - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:32:32 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:32:32 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 52 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:32:32 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:34:02 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:34:02 +0000] "GET / HTTP/1.1" 200 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 12:34:02 GMT] - [31merror[39m: ApiError - 404 - Oops, You have reached a dead end - /favicon.ico - GET - ::1
-[Tue, 02 Feb 2021 12:34:02 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:34:02 +0000] "GET /favicon.ico HTTP/1.1" 404 63 "http://localhost:7080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 12:35:16 GMT] - [31merror[39m: ApiError - 404 - Oops, You have reached a dead end - /k - GET - ::1
-[Tue, 02 Feb 2021 12:35:16 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:35:16 +0000] "GET /k HTTP/1.1" 404 63 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36"
-
-[Tue, 02 Feb 2021 12:37:12 GMT] - [31merror[39m: ApiError - 400 - first_name is required - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:37:12 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:37:12 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 52 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:37:12 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:41:54 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:41:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:42:10 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:42:16 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:42:16 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:42:16 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:42:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:42:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:42:47 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:45:58 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:46:01 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:47:06 GMT] - [31merror[39m: ApiError - 400 - first_name is required - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:47:06 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:47:06 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 52 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:48:43 GMT] - [31merror[39m: ApiError - 400 - first_name is required - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:48:43 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:48:43 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 52 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:48:54 GMT] - [31merror[39m: ApiError - 400 - last_name is required - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:48:54 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:48:54 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 51 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:49:11 GMT] - [31merror[39m: ApiError - 400 - Email address is required - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:49:11 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:49:11 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 55 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:49:32 GMT] - [31merror[39m: ApiError - 400 - password is required - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:49:32 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:49:32 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 50 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:49:59 GMT] - [31merror[39m: error - STAFF_EMAIL_EXIST_VERIFICATION_FAIL - column "email" does not exist
-[Tue, 02 Feb 2021 12:49:59 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of email, try again. - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:49:59 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:49:59 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 12:56:52 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:56:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 12:58:44 GMT] - [31merror[39m: error - STAFF_EMAIL_EXIST_VERIFICATION_FAIL - column "email" does not exist
-[Tue, 02 Feb 2021 12:58:44 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of email, try again. - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 12:58:44 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:12:58:44 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 13:00:22 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 13:00:25 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 13:00:43 GMT] - [31merror[39m: error - STAFF_EMAIL_EXIST_VERIFICATION_FAIL - column "email" does not exist
-[Tue, 02 Feb 2021 13:00:43 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of email, try again. - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 13:00:43 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:13:00:43 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 13:04:34 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 13:04:34 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:13:04:34 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 13:04:34 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 13:04:37 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 13:04:37 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:13:04:37 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 13:04:37 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 13:05:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Tue, 02 Feb 2021 13:05:19 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Tue, 02 Feb 2021 13:05:19 GMT] - [32minfo[39m: ::1 - - [02/Feb/2021:13:05:19 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Tue, 02 Feb 2021 13:05:19 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:03:51 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:03:51 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:03:51 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:03:51 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:05:24 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:05:30 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:05:30 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:05:30 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:05:30 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:06:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:06:30 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:06:30 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:06:30 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:06:30 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:06:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:06:50 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:06:50 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:06:50 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:06:50 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:07:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:07:15 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:07:15 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:07:15 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:07:15 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:07:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:07:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:07:42 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:07:42 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:08:17 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:08:17 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:09:10 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:09:21 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:09:52 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:10:18 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:12:36 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:12:36 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:12:36 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:12:36 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:13:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:14:11 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:14:31 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:14:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:15:14 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:15:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:16:07 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:16:07 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:16:07 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:16:07 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:16:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:17:09 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:17:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:17:22 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:17:24 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:17:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:17:45 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:17:45 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:17:45 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:17:45 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:20:04 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:20:05 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:20:05 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:20:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:20:50 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:20:53 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:20:53 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:21:30 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:21:33 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:21:47 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:21:48 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:21:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:22:01 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:22:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:23:10 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:23:16 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:23:16 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:23:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:23:50 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:24:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:24:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:24:50 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:24:58 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:25:06 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:25:41 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:25:41 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:25:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:26:01 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:26:01 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:26:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:27:00 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:27:00 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:27:42 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:30:02 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:30:05 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:30:05 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:30:27 GMT] - [31merror[39m: ApiError - 400 - "role" is not allowed - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:30:27 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:30:27 +0000] "POST /api/v1/auth/signup HTTP/1.1" 400 53 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:31:34 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:31:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:31:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:31:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:31:49 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:31:49 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:53:11 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:19 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:28 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:30 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:32 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:36 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:51 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:53 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:53:59 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:54:02 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:54:09 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:54:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:54:45 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:54:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:54:54 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:54:57 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:55:08 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:55:08 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:55:08 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:55:32 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:55:32 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:55:32 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:55:32 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:55:35 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:55:35 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:55:35 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:55:59 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:56:01 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:56:03 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:56:09 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:56:09 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:56:09 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:56:09 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:56:32 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:56:47 GMT] - [32minfo[39m: saving Admin-ST-37202 details in contollers > auth > index.js
-[Wed, 03 Feb 2021 09:56:47 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:56:47 +0000] "POST /api/v1/auth/signup HTTP/1.1" 201 58 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:57:22 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:57:24 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:57:27 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:57:27 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:57:27 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:57:41 GMT] - [32minfo[39m: saving Admin-ST-18468 details in contollers > auth > index.js
-[Wed, 03 Feb 2021 09:57:41 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:57:41 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:57:41 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:57:41 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:57:53 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:57:53 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:57:53 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:58:15 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 09:58:15 GMT] - [32minfo[39m: saving Admin-ST-46541 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 09:58:15 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 09:58:15 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:09:58:15 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 09:58:15 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:00:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:00:58 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:01:00 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:01:27 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:01:32 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:01:37 GMT] - [32minfo[39m: saving Admin-ST-08166 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:01:37 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:01:37 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:01:37 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:01:37 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:04:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:05:05 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:05:07 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:05:11 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:05:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:05:13 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:05:13 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:05:13 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:05:20 GMT] - [32minfo[39m: saving Admin-ST-29395 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:05:20 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:05:20 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:05:20 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:05:20 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:06:28 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:06:37 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:06:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:06:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:06:45 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:06:45 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:06:45 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:06:50 GMT] - [32minfo[39m: saving Admin-ST-34932 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:06:50 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:06:50 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:06:50 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:06:50 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:08:35 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:08:38 GMT] - [32minfo[39m: saving Admin-ST-94080 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:08:38 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:08:38 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:08:38 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:08:38 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:08:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:08:58 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:09:24 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:09:31 GMT] - [32minfo[39m: saving Admin-ST-91692 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:09:31 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:09:31 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:09:31 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:09:31 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:16:06 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:16:07 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:16:20 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:16:37 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:16:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:16:48 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:17:07 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:17:07 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:17:07 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:17:07 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:18:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:19:15 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:19:37 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:19:37 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:19:37 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:19:37 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:20:21 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:20:24 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:20:28 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:20:28 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:20:28 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:20:28 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:20:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:21:09 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:21:23 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:21:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:21:31 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:21:35 GMT] - [32minfo[39m: saving Admin-ST-50652 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:21:35 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:21:35 +0000] "POST /api/v1/auth/signup HTTP/1.1" 200 166 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:24:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:25:01 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:31:34 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:31:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:31:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:31:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:31:48 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:31:52 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:33:00 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:33:11 GMT] - [32minfo[39m: saving Admin-ST-49806 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:33:11 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:33:11 +0000] "POST /api/v1/auth/signup HTTP/1.1" 200 166 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:33:22 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:33:23 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:33:23 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:33:23 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:33:29 GMT] - [32minfo[39m: saving Admin-ST-33062 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:33:29 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:33:29 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:33:29 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 52 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:34:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:34:31 GMT] - [32minfo[39m: saving Admin-ST-62018 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:34:31 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:34:31 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:34:31 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 52 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:35:01 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:35:03 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:35:05 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:35:06 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:35:09 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:35:09 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:35:09 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:35:15 GMT] - [32minfo[39m: saving Admin-ST-68662 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:35:15 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:35:15 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:35:15 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:35:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:35:49 GMT] - [32minfo[39m: saving Admin-ST-09165 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:35:49 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:35:49 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:35:49 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:36:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:36:46 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:36:48 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:36:52 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:36:52 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:36:52 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:36:58 GMT] - [32minfo[39m: saving Admin-ST-66773 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:36:58 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:36:58 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:36:58 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 52 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:37:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:37:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:05 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:08 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:18 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:22 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:39 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:44 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:38:52 GMT] - [32minfo[39m: saving Admin-ST-91998 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:38:52 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:38:52 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:38:52 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 52 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:39:42 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:42:13 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:42:22 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:42:42 GMT] - [32minfo[39m: saving Admin-ST-31252 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:42:42 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:42:42 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:42:42 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 64 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:44:00 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:44:06 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:44:06 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:44:06 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:44:11 GMT] - [32minfo[39m: saving Admin-ST-37409 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:44:11 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:44:11 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:44:11 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:44:53 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:44:57 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:44:57 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:44:57 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:45:02 GMT] - [32minfo[39m: saving Admin-ST-92029 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:45:02 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1
-[Wed, 03 Feb 2021 10:45:02 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:45:02 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 10:47:07 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:47:09 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:47:10 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:47:18 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:47:19 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:47:24 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:47:27 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:49:03 GMT] - [32minfo[39m: saving Admin-ST-76994 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:49:03 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1 
-    [object Object]
+[Tue, 23 Feb 2021 21:21:08 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:21:17 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:21:41 GMT] - [31merror[39m: ApiError - 400 - undefined - password is required - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 10:49:03 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:49:03 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:21:41 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:21:41 +0000] "POST /api/v1/auth//login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 10:49:25 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 10:49:27 GMT] - [32minfo[39m: saving Admin-ST-81080 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 10:49:27 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1 
-    undefined
+[Tue, 23 Feb 2021 21:22:29 GMT] - [31merror[39m: ApiError - 400 - undefined - Email address is required - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 10:49:27 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:10:49:27 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:22:29 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:22:29 +0000] "POST /api/v1/auth//login HTTP/1.1" 400 55 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 11:12:05 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:12:07 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:36 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:44 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:47 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:50 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:52 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:13:59 GMT] - [32minfo[39m: saving Admin-ST-20809 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 11:14:14 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:30 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:32 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:34 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:38 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:40 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:41 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:14:44 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:23:39 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:23:40 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:23:51 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:27:49 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:28:08 GMT] - [31merror[39m: ApiError - 400 - undefined - email is required - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 11:14:44 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:11:14:44 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:28:08 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:28:08 +0000] "POST /api/v1/auth//login HTTP/1.1" 400 47 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 11:14:49 GMT] - [32minfo[39m: saving Admin-ST-29740 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 11:14:49 GMT] - [32minfo[39m: res.status is not a function
-[Wed, 03 Feb 2021 11:14:49 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:28:23 GMT] - [31merror[39m: ApiError - 400 - undefined - The Email address is invalid - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 11:14:49 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:11:14:49 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:28:23 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:28:23 +0000] "POST /api/v1/auth//login HTTP/1.1" 400 58 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 11:15:20 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:15:21 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:15:23 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:15:25 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:28:51 GMT] - [31merror[39m: TypeError - EMAIL_EXIST_VERIFICATION_FAIL - getDetails is not a function
+[Tue, 23 Feb 2021 21:28:51 GMT] - [31merror[39m: ApiError - 500 - undefined - Error verifying existence of email, try again. - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 11:15:25 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:11:15:25 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:28:51 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:28:51 +0000] "POST /api/v1/auth//login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 11:15:30 GMT] - [32minfo[39m: saving Admin-ST-58401 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 11:15:30 GMT] - [31merror[39m: res.status is not a function
-[Wed, 03 Feb 2021 11:15:30 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:29:16 GMT] - [31merror[39m: TypeError - EMAIL_EXIST_VERIFICATION_FAIL - getDetails is not a function
+[Tue, 23 Feb 2021 21:29:16 GMT] - [31merror[39m: ApiError - 500 - undefined - Error verifying existence of email, try again. - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 11:15:30 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:11:15:30 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:29:16 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:29:16 +0000] "POST /api/v1/auth//login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 11:18:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:18:29 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:18:33 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:18:38 GMT] - [32minfo[39m: saving Admin-ST-56403 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 11:18:38 GMT] - [31merror[39m: res.status is not a function
-[Wed, 03 Feb 2021 11:18:38 GMT] - [31merror[39m: ApiError - 500 - res.status is not a function - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:30:33 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:36 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:37 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:40 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:45 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:51 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:53 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:55 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:30:58 GMT] - [31merror[39m: ApiError - 400 - undefined - userType is required - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 11:18:38 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:11:18:38 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:30:58 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:30:58 +0000] "POST /api/v1/auth//login HTTP/1.1" 400 50 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 11:19:18 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:20:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:21:23 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:21:26 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:21:27 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:25:55 GMT] - [32minfo[39m: saving Admin-ST-72822 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 11:25:55 GMT] - [31merror[39m: [object Object]
-[Wed, 03 Feb 2021 11:25:55 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:11:25:55 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
-
-[Wed, 03 Feb 2021 11:26:08 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:35:30 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:35:32 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:35:34 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:35:43 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:35:48 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:36:04 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:36:12 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:36:17 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:36:20 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:36:24 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:37:25 GMT] - [32minfo[39m: saving Admin-ST-29568 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 11:37:25 GMT] - [31merror[39m: error saving user in controllers > auth > index.js res.status is not a function
-[Wed, 03 Feb 2021 11:37:25 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:31:55 GMT] - [31merror[39m: ApiError - 400 - undefined - userType must be at least 7 characters long - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 11:37:25 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:11:37:25 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:31:55 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:31:55 +0000] "POST /api/v1/auth//login HTTP/1.1" 400 73 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 11:37:54 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 11:37:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:20:34 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:20:49 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:20:51 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:20:53 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:21:11 GMT] - [31merror[39m: ApiError - 409 - undefined - A user with your email already exists - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:32:04 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:32:05 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:32:07 GMT] - [31merror[39m: ApiError - 401 - undefined - Invalid email/password - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 12:21:11 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:12:21:11 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:32:07 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:32:07 +0000] "POST /api/v1/auth//login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 12:21:17 GMT] - [32minfo[39m: saving Admin-ST-79217 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 12:21:17 GMT] - [31merror[39m: error saving user in controllers > auth > index.js
-[Wed, 03 Feb 2021 12:21:17 GMT] - [31merror[39m: ApiError - 500 - undefined - Error registering user - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:32:19 GMT] - [31merror[39m: ApiError - 404 - undefined - Oops, You have reached a dead end - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 12:21:17 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:12:21:17 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 52 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:32:19 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:32:19 +0000] "POST /api/v1/auth//login HTTP/1.1" 404 63 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 12:21:54 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:21:56 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:23:08 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:23:10 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:23:11 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:23:44 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:23:48 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Wed, 03 Feb 2021 12:23:52 GMT] - [32minfo[39m: saving Admin-ST-25381 details in controllers > auth > index.js
-[Wed, 03 Feb 2021 12:23:52 GMT] - [31merror[39m: error saving user in controllers > auth > index.js
-[Wed, 03 Feb 2021 12:23:52 GMT] - [31merror[39m: ApiError - 500 - res.status is not a function - Error registering user - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:32:22 GMT] - [31merror[39m: ApiError - 404 - undefined - Oops, You have reached a dead end - /api/v1/auth//login - POST - ::1 
     
-[Wed, 03 Feb 2021 12:23:52 GMT] - [32minfo[39m: ::1 - - [03/Feb/2021:12:23:52 +0000] "POST /api/v1/auth/signup HTTP/1.1" 500 92 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:32:22 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:32:22 +0000] "POST /api/v1/auth//login HTTP/1.1" 404 63 "-" "PostmanRuntime/7.26.8"
 
-[Wed, 03 Feb 2021 12:24:16 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 22 Feb 2021 13:35:55 GMT] - [32minfo[39m: e-wallet running on port 7080
-[Mon, 22 Feb 2021 13:36:43 GMT] - [32minfo[39m: saving Admin-ST-88205 details in controllers > auth > index.js
-[Mon, 22 Feb 2021 13:36:43 GMT] - [32minfo[39m: ::1 - - [22/Feb/2021:13:36:43 +0000] "POST /api/v1/auth/signup HTTP/1.1" 200 167 "-" "PostmanRuntime/7.26.8"
-
-[Mon, 22 Feb 2021 13:36:47 GMT] - [31merror[39m: ApiError - 409 - undefined - A user with your email already exists - /api/v1/auth/signup - POST - ::1 
+[Tue, 23 Feb 2021 21:32:48 GMT] - [31merror[39m: ApiError - 404 - undefined - Oops, You have reached a dead end - /api/v1/auth/login - POST - ::1 
     
-[Mon, 22 Feb 2021 13:36:47 GMT] - [32minfo[39m: ::1 - - [22/Feb/2021:13:36:47 +0000] "POST /api/v1/auth/signup HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
+[Tue, 23 Feb 2021 21:32:48 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:32:48 +0000] "POST /api/v1/auth/login HTTP/1.1" 404 63 "-" "PostmanRuntime/7.26.8"
 
-[Mon, 22 Feb 2021 13:37:01 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:33:16 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:33:20 GMT] - [31merror[39m: ApiError - 403 - undefined - Your access has been revoked - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:33:20 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:33:20 +0000] "POST /api/v1/auth/login HTTP/1.1" 403 58 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:33:42 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:33:43 GMT] - [31merror[39m: ApiError - 403 - undefined - Your access has been revoked - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:33:43 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:33:43 +0000] "POST /api/v1/auth/login HTTP/1.1" 403 58 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:34:40 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:34:41 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:34:43 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:34:46 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:34:50 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:34:53 GMT] - [31merror[39m: ApiError - 403 - undefined - Your access has been revoked - /api/v1/auth/login - POST - ::1 
+     Your access has been revoked
+[Tue, 23 Feb 2021 21:34:53 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:34:53 +0000] "POST /api/v1/auth/login HTTP/1.1" 403 58 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:35:09 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:35:11 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:35:13 GMT] - [31merror[39m: Your access has been revoked
+[Tue, 23 Feb 2021 21:35:13 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:35:13 +0000] "POST /api/v1/auth/login HTTP/1.1" 403 58 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:36:03 GMT] - [31merror[39m: Your access has been revoked
+[Tue, 23 Feb 2021 21:36:03 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:36:03 +0000] "POST /api/v1/auth/login HTTP/1.1" 403 58 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:37:15 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:37:18 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:37:18 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 445 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:41:11 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:41:53 GMT] - [31merror[39m: The Email address is invalid
+[Tue, 23 Feb 2021 21:41:53 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:41:53 +0000] "POST /api/v1/auth/login HTTP/1.1" 400 58 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:42:05 GMT] - [31merror[39m: Invalid email/password
+[Tue, 23 Feb 2021 21:42:05 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:42:05 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:42:41 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:42:42 GMT] - [31merror[39m: ReferenceError - EMAIL_EXIST_VERIFICATION_FAIL - apiErrLogMessanger is not defined
+[Tue, 23 Feb 2021 21:42:55 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:43:08 GMT] - [31merror[39m: Invalid email/password
+[Tue, 23 Feb 2021 21:43:08 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:43:08 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:43:42 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:43:43 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:43:46 GMT] - [31merror[39m: undefined
+[Tue, 23 Feb 2021 21:43:46 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:43:46 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:43:58 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:44:05 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:44:10 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:13 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:14 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:17 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:18 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:20 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:21 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:25 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:45:31 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:45:31 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:45:31 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:46:12 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:46:15 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:46:15 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:46:15 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:47:29 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:47:30 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:47:33 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:47:33 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:47:33 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 129 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:47:47 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:53:36 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:54:09 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:54:12 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:54:15 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:54:45 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:54:50 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:54:56 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:55:16 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:55:18 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:55:24 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:55:28 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:55:45 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:55:45 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:55:45 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:56:43 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:56:43 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:56:43 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:58:07 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:58:10 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:58:10 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:58:10 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:58:23 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:59:06 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 21:59:06 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:21:59:06 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 21:59:44 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 21:59:47 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:00:01 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:00:02 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:00:02 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:00:02 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:00:19 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:00:42 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:00:49 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:00:52 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:00:54 GMT] - [31merror[39m: ReferenceError - Error verifying Email in method : loginEmailValidator in middlewares > auth > basic.js - e is not defined
+[Tue, 23 Feb 2021 22:00:54 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:00:54 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:00:54 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:03:17 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:03:29 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:03:30 GMT] - [31merror[39m: ReferenceError: e is not defined
+[Tue, 23 Feb 2021 22:03:30 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:03:30 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:03:30 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:03:53 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:03:55 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:03:58 GMT] - [31merror[39m: ReferenceError: e is not defined
+[Tue, 23 Feb 2021 22:03:58 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:03:58 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:03:58 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:03:59 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:04:02 GMT] - [31merror[39m: ReferenceError: e is not defined
+[Tue, 23 Feb 2021 22:04:02 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:04:02 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:04:02 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:04:16 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:04:50 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:04:57 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:05 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:08 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:12 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:21 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:22 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:26 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:30 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:32 GMT] - [31merror[39m: ReferenceError: e is not defined
+[Tue, 23 Feb 2021 22:05:32 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:05:32 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:05:32 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:05:53 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:05:54 GMT] - [31merror[39m: ReferenceError: e is not defined
+[Tue, 23 Feb 2021 22:05:54 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:05:54 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:05:54 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:06:17 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:06:21 GMT] - [31merror[39m: ReferenceError - ReferenceError: e is not defined in method : loginEmailValidator in middlewares > auth > basic.js - e is not defined
+[Tue, 23 Feb 2021 22:06:21 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:06:21 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:06:21 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:06:45 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:06:45 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:06:45 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:06:45 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:07:04 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:07:11 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:07:15 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:07:26 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:07:43 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:07:50 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:07:52 GMT] - [31merror[39m: User not found in in method : loginEmailValidator in middlewares > auth > basic.js
+[Tue, 23 Feb 2021 22:07:52 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:07:52 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:07:52 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:08:54 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:08:57 GMT] - [31merror[39m: User not found in in method : loginEmailValidator in middlewares > auth > basic.js
+[Tue, 23 Feb 2021 22:08:57 GMT] - [31merror[39m: ApiError - 401 -  Invalid email/password - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:08:57 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:08:57 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:09:13 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:09:18 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:09:20 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:09:20 GMT] - [31merror[39m: ReferenceError - ReferenceError: e is not defined in method : loginEmailValidator in middlewares > auth > basic.js - e is not defined
+[Tue, 23 Feb 2021 22:09:20 GMT] - [31merror[39m: ApiError - 500 -  Error verifying existence of email, try again. - /api/v1/auth/login - POST - ::1 
+    
+[Tue, 23 Feb 2021 22:09:20 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:09:20 +0000] "POST /api/v1/auth/login HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 22:09:44 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:09:53 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:10:30 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:10:37 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:10:39 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 22:10:42 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 22:12:42 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:22:12:42 +0000] "POST /api/v1/auth/login HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 23:06:38 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:07:02 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 23:07:12 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:23:07:12 +0000] "POST /api/v1/auth/login HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 23:07:24 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:12:21 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:12:26 GMT] - [31merror[39m: ReferenceError: e is not defined
+[Tue, 23 Feb 2021 23:12:46 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:16:59 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:20:26 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:20:29 GMT] - [31merror[39m: [object Object]
+[Tue, 23 Feb 2021 23:21:52 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:22:03 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:22:38 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:28:44 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:29:19 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:29:35 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:29:52 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:30:09 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:30:15 GMT] - [32minfo[39m: [object Object]
+[Tue, 23 Feb 2021 23:30:36 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:30:46 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:31:07 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:31:11 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:31:18 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:31:30 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 23:33:27 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:33:47 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:34:07 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:34:12 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:34:18 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:34:24 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:34:33 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:34:36 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:34:48 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 23:35:17 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:35:19 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 23:35:49 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:36:38 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:36:40 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 23:38:39 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:23:38:39 +0000] "POST /api/v1/auth/login HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 23:50:56 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:51:07 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 23:51:19 GMT] - [32minfo[39m: ::1 - - [23/Feb/2021:23:51:19 +0000] "POST /api/v1/auth/login HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+
+[Tue, 23 Feb 2021 23:51:21 GMT] - [31merror[39m: e is not defined
+[Tue, 23 Feb 2021 23:51:43 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Tue, 23 Feb 2021 23:51:49 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 00:05:40 GMT] - [32minfo[39m: [object Object]
+[Wed, 24 Feb 2021 00:05:48 GMT] - [31merror[39m: [object Object]
+[Wed, 24 Feb 2021 00:05:57 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 00:05:59 GMT] - [32minfo[39m: undefined
+[Wed, 24 Feb 2021 00:06:19 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:47:35 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:48:13 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:48:24 GMT] - [31merror[39m: e is not defined
+[Wed, 24 Feb 2021 08:50:16 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:50:17 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:50:28 GMT] - [31merror[39m: ReferenceError: e is not defined
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:150:62)
+[Wed, 24 Feb 2021 08:51:10 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:51:13 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:51:16 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:51:24 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:51:28 GMT] - [31merror[39m: e is not defined
+[Wed, 24 Feb 2021 08:51:37 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:51:40 GMT] - [32minfo[39m: e-wallet running on port 7080
+[Wed, 24 Feb 2021 08:58:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-02-24T08:58:35.687Z [undefined] [31merror[39m: e is not defined ReferenceError: e is not defined
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:150:62)
+[Wed, 24 Feb 2021 08:58:57 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:08:58:57 +0000] "POST /api/v1/auth/login HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:46:50 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:47:20 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:47:20 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:47:20 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:48:16 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:48:16 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:48:16 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:48:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:48:36 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:48:36 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:48:36 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:50:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:50:25 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:50:25 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:50:25 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:51:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:51:10 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:51:10 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:51:10 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:51:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:51:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:51:54 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:51:54 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:51:54 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:52:02 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:52:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:52:14 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:52:14 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:52:14 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:52:27 GMT] - [31merror[39m: User not found in in method : loginEmailValidator in middlewares > auth > basic.js)
+[Wed, 24 Feb 2021 17:52:27 GMT] - [31merror[39m: ApiError - 401 - Invalid email/password - /api/v1/auth/login - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:52:27 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:52:27 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:52:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:53:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:53:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:53:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:53:16 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:53:17 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:53:17 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:53:17 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:53:21 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:53:21 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:53:21 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:53:48 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:53:48 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:53:48 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:53:49 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:53:49 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:53:49 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:54:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:54:30 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:54:30 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:54:30 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:54:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:54:46 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:54:48 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:54:48 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:54:48 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:55:51 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:55:51 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 445 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:56:22 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:56:22 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:56:22 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:56:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:57:02 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:57:02 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:57:02 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:57:58 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:58:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 17:58:59 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:58:59 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 459 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 17:59:13 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 17:59:13 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:17:59:13 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:02:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:02:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:02:59 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:02:59 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 459 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:03:12 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:03:12 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:03:12 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:05:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:05:05 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:05:05 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 459 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:05:09 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:05:09 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:05:09 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:05:42 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:05:45 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:05:45 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:05:45 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:06:48 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:06:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:06:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:06:57 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:06:57 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:06:57 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:06:57 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:07:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:07:42 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:07:42 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:07:42 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:07:42 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:07:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:07:54 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:07:57 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:07:58 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:07:58 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:07:58 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:08:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:08:43 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:08:43 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:08:43 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:09:01 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:09:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:09:05 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:09:05 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:09:05 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:09:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:09:30 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:09:30 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:09:30 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:09:57 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:09:59 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:09:59 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:09:59 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:10:08 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:10:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:10:14 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:10:16 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:10:16 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:10:16 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:10:46 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:10:48 GMT] - [31merror[39m: ApiError - 403 - User is not authorized to perform the role - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:10:48 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:10:48 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 403 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:11:09 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:11:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:11:22 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:11:22 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:11:22 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:11:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:11:57 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:11:58 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:11:58 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:11:58 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:13:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:06 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:09 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:16 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:27 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:13:27 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:13:27 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:13:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:44 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:49 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:13:49 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:13:49 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:13:49 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:13:59 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:14:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:14:05 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:14:05 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:14:05 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:14:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:14:41 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:14:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:14:51 GMT] - [31merror[39m: ApiError - 400 - role is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:14:51 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:14:51 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 46 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:17:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:17:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:18:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:18:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:18:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:19:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:19:08 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:19:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:19:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:19:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:21:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:21:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:21:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:21:42 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:22:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:22:50 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:23:19 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:23:19 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:23:19 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:23:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:23:46 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 18:23:47 GMT] - [31merror[39m: ApiError - 400 - userType is required - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:23:47 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:23:47 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 400 50 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:24:13 GMT] - [31merror[39m: ApiError - 409 - A user with your email already exists - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:24:13 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:24:13 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 409 67 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:24:33 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/create-admin - POST - ::1 
+    )
+[Wed, 24 Feb 2021 18:24:33 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:24:33 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 500 120 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 18:25:31 GMT] - [32minfo[39m: saving Admin-ST-37192 details in controllers > auth > index.js)
+[Wed, 24 Feb 2021 18:25:31 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:18:25:31 +0000] "POST /api/v1/auth/create-admin HTTP/1.1" 200 166 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:42:43 GMT] - [31merror[39m: ApiError - 404 - Oops, You have reached a dead end - /api/v1/auth/register - GET - ::1 
+    )
+[Wed, 24 Feb 2021 20:42:43 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:42:43 +0000] "GET /api/v1/auth/register HTTP/1.1" 404 63 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:42:49 GMT] - [31merror[39m: ApiError - 400 - first_name is required - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:42:49 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:42:49 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 52 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:44:26 GMT] - [31merror[39m: ApiError - 400 - phone_number is required - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:44:26 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:44:26 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 54 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:44:50 GMT] - [31merror[39m: ApiError - 400 - Oops, something broke on the server!!! - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:44:50 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:44:50 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:45:02 GMT] - [31merror[39m: ApiError - 400 - phone_number is required - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:45:02 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:45:02 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 54 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:45:12 GMT] - [31merror[39m: error saving user in controllers > auth > index.js)
+[Wed, 24 Feb 2021 20:45:12 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:45:12 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:45:12 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:46:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:46:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:46:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:46:36 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:46:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:46:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:46:53 GMT] - [31merror[39m: ApiError - 400 - Oops, something broke on the server!!! - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:46:53 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:46:53 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:47:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:48:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:48:14 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:48:15 GMT] - [31merror[39m: ApiError - 400 - Oops, something broke on the server!!! - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:48:15 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:48:15 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:48:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:48:33 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:48:36 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:48:41 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:48:45 GMT] - [31merror[39m: ApiError - 400 - Oops, something broke on the server!!! - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:48:45 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:48:45 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 68 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:49:31 GMT] - [31merror[39m: error saving user in controllers > auth > index.js)
+[Wed, 24 Feb 2021 20:49:31 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:49:31 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:49:31 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:50:31 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:51:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:51:54 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:51:58 GMT] - [31merror[39m: error saving user in controllers > auth > index.js)
+[Wed, 24 Feb 2021 20:51:58 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:51:58 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:51:58 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:52:13 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:52:32 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:52:36 GMT] - [31merror[39m: error saving user in controllers > auth > index.js null value in column "role" violates not-null constraint)
+[Wed, 24 Feb 2021 20:52:36 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:52:36 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:52:36 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:58:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:58:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:58:56 GMT] - [31merror[39m: error saving user in controllers > auth > index.js null value in column "role" violates not-null constraint)
+[Wed, 24 Feb 2021 20:58:56 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 20:58:56 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:20:58:56 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 20:59:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 20:59:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:01:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:01:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:01:24 GMT] - [31merror[39m: error: null value in column "role" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23))
+[Wed, 24 Feb 2021 21:01:24 GMT] - [31merror[39m: error saving user in controllers > auth > index.js null value in column "role" violates not-null constraint)
+[Wed, 24 Feb 2021 21:01:24 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:01:24 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:01:24 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:01:44 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-02-24T21:01:48.024Z [undefined] [31merror[39m: null value in column "role" violates not-null constraint error: null value in column "role" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Wed, 24 Feb 2021 21:01:48 GMT] - [31merror[39m: error saving user in controllers > auth > index.js null value in column "role" violates not-null constraint)
+[Wed, 24 Feb 2021 21:01:48 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:01:48 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:01:48 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:02:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-02-24T21:02:24.494Z [undefined] [31merror[39m: null value in column "role" violates not-null constraint error: null value in column "role" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+2021-02-24T21:02:24.494Z [undefined] [31merror[39m: null value in column "role" violates not-null constraint error: null value in column "role" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Wed, 24 Feb 2021 21:02:24 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:02:24 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:02:24 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 122 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:02:49 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:02:50 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:02:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:03:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:03:02 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:03:41 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:03:42 GMT] - [32minfo[39m: Saving Users details.....)
+2021-02-24T21:03:42.956Z [undefined] [31merror[39m: DBError is not defined ReferenceError: DBError is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:32:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:03:42 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:03:42 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:03:42 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 86 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:04:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:04:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:04:06 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:04:10 GMT] - [32minfo[39m: Saving Users details.....)
+[Wed, 24 Feb 2021 21:04:10 GMT] - [31merror[39m: DbError - 500 - id is not defined - DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:33:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:04:10.519Z [undefined] [31merror[39m: id is not defined DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:33:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:04:10 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:04:10 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:04:10 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:05:37 GMT] - [32minfo[39m: Saving Users details.....)
+[Wed, 24 Feb 2021 21:05:37 GMT] - [31merror[39m: DbError - 500 - id is not defined - DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:33:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:05:37.420Z [undefined] [31merror[39m: id is not defined DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:33:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:05:37 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:05:37 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:05:37 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:06:46 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:07:08 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:07:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:07:13 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:07:18 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:07:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:07:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:07:25 GMT] - [32minfo[39m: Saving Users details.....)
+2021-02-24T21:07:25.896Z [undefined] [31merror[39m: id is not defined ReferenceError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:24:17)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:07:25 GMT] - [31merror[39m: DbError - 500 - id is not defined - DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:07:25.897Z [undefined] [31merror[39m: id is not defined DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:07:25 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:07:25 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:07:25 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:08:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:08:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:08:12 GMT] - [32minfo[39m: Saving Users details.....)
+[Wed, 24 Feb 2021 21:08:12 GMT] - [31merror[39m: ReferenceError - undefined - id is not defined - ReferenceError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:24:17)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:08:12.892Z [undefined] [31merror[39m: id is not defined DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:08:12 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:08:12 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:08:12 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:08:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:08:27 GMT] - [32minfo[39m: Saving Users details.....)
+[Wed, 24 Feb 2021 21:08:27 GMT] - [31merror[39m: ReferenceError - undefined - id is not defined - ReferenceError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:24:17)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:08:27.342Z [undefined] [31merror[39m: id is not defined DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:08:27 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:08:27 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:08:27 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:09:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:10:02 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:10:04 GMT] - [32minfo[39m: Saving Users details.....)
+[Wed, 24 Feb 2021 21:10:04 GMT] - [31merror[39m: DbError - 500 - id is not defined - DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:10:04.950Z [undefined] [31merror[39m: id is not defined DbError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:10:04 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:10:04 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:10:04 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:10:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:10:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:10:59 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:11:01 GMT] - [32minfo[39m: Saving Users details.....)
+[Wed, 24 Feb 2021 21:11:01 GMT] - [31merror[39m: DbError - 500 - A database error occurred, either in redis or postgres - DbError: A database error occurred, either in redis or postgres
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:11:01.962Z [undefined] [31merror[39m: A database error occurred, either in redis or postgres DbError: A database error occurred, either in redis or postgres
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:34:29)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:11:01 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:11:01 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:11:01 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 118 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:11:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:11:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:06 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:18 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:12:40 GMT] - [32minfo[39m: Saving Users details.....)
+[Wed, 24 Feb 2021 21:12:40 GMT] - [31merror[39m: DbError - 500 - id is not defined - ReferenceError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:24:17)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30))
+2021-02-24T21:12:40.743Z [undefined] [31merror[39m: id is not defined ReferenceError: id is not defined
+    at UserModel.save (/Users/aijey_omah/Documents/clock/E-wallet/app/models/user.js:24:17)
+    at userSignUp (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/auth/index.js:17:30)
+[Wed, 24 Feb 2021 21:12:40 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:12:40 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:12:40 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 81 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:13:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:13:21 GMT] - [32minfo[39m: Saving Users details.....)
+2021-02-24T21:13:21.432Z [undefined] [31merror[39m: column "salt" of relation "users" does not exist error: column "salt" of relation "users" does not exist
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Wed, 24 Feb 2021 21:13:21 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:13:21 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:13:21 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 116 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:19:44 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:23:03 GMT] - [32minfo[39m: Saving Users details.....)
+2021-02-24T21:23:03.934Z [undefined] [31merror[39m: value "08130233246" is out of range for type integer error: value "08130233246" is out of range for type integer
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Wed, 24 Feb 2021 21:23:03 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:23:03 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:23:03 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 118 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:23:36 GMT] - [31merror[39m: ApiError - 400 - phone_number must be at least 11 characters long - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:23:36 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:23:36 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 78 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Feb 2021 21:24:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:24:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Feb 2021 21:24:11 GMT] - [32minfo[39m: Saving Users details.....)
+2021-02-24T21:24:11.819Z [undefined] [31merror[39m: null value in column "gender" violates not-null constraint error: null value in column "gender" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Wed, 24 Feb 2021 21:24:11 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Wed, 24 Feb 2021 21:24:11 GMT] - [32minfo[39m: ::1 - - [24/Feb/2021:21:24:11 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 124 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:08:31 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Mon, 01 Mar 2021 09:08:44 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:08:44.582Z [undefined] [31merror[39m: null value in column "gender" violates not-null constraint error: null value in column "gender" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:08:44 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:08:44 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:08:44 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 124 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:08:46 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:08:46.795Z [undefined] [31merror[39m: null value in column "gender" violates not-null constraint error: null value in column "gender" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:08:46 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:08:46 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:08:46 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 124 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:22:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Mon, 01 Mar 2021 09:35:36 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Mon, 01 Mar 2021 09:36:11 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:36:11.538Z [undefined] [31merror[39m: null value in column "state" violates not-null constraint error: null value in column "state" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:36:11 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:36:11 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:36:11 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 123 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:36:31 GMT] - [31merror[39m: ApiError - 400 - first_name is required - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:36:31 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:36:31 +0000] "POST /api/v1/auth/register HTTP/1.1" 400 52 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:36:56 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:36:57.001Z [undefined] [31merror[39m: null value in column "state" violates not-null constraint error: null value in column "state" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:36:57 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:36:57 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:36:57 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 123 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:39:41 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:39:41.752Z [undefined] [31merror[39m: null value in column "lga" violates not-null constraint error: null value in column "lga" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:39:41 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:39:41 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:39:41 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 121 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:40:09 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:40:09.133Z [undefined] [31merror[39m: null value in column "home_address" violates not-null constraint error: null value in column "home_address" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:40:09 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:40:09 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:40:09 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 130 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:40:30 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:40:30.787Z [undefined] [31merror[39m: null value in column "home_address" violates not-null constraint error: null value in column "home_address" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:40:30 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:40:30 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:40:30 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 130 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:40:32 GMT] - [32minfo[39m: Saving Users details.....)
+2021-03-01T09:40:32.673Z [undefined] [31merror[39m: null value in column "home_address" violates not-null constraint error: null value in column "home_address" violates not-null constraint
+    at Parser.parseErrorMessage (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:278:15)
+    at Parser.handlePacket (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:126:29)
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:39:38)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:314:20)
+    at Socket.EventEmitter.emit (domain.js:483:12)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at Socket.Readable.push (_stream_readable.js:213:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:188:23)
+[Mon, 01 Mar 2021 09:40:32 GMT] - [31merror[39m: ApiError - 500 - Error registering user - /api/v1/auth/register - POST - ::1 
+    )
+[Mon, 01 Mar 2021 09:40:32 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:40:32 +0000] "POST /api/v1/auth/register HTTP/1.1" 500 130 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:40:43 GMT] - [32minfo[39m: Saving Users details.....)
+[Mon, 01 Mar 2021 09:40:43 GMT] - [32minfo[39m: saving user-USR-68770 details in controllers > auth > index.js)
+[Mon, 01 Mar 2021 09:40:43 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:40:43 +0000] "POST /api/v1/auth/register HTTP/1.1" 200 179 "-" "PostmanRuntime/7.26.8"
+)
+[Mon, 01 Mar 2021 09:47:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Mon, 01 Mar 2021 09:48:52 GMT] - [32minfo[39m: ::1 - - [01/Mar/2021:09:48:52 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 379 "-" "PostmanRuntime/7.26.8"
+)

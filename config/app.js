@@ -1,7 +1,7 @@
 import { json, urlencoded } from 'express';
 import morgan from 'morgan';
 import config from './env';
-import authRoute from '../app/routes/v1/admin'
+import authRoute from '../app/routes/auth'
 import {genericErrors, constants} from '../app/utils'
 import { errorResponse , successResponse} from '../app/utils/helpers';
 

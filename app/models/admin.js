@@ -11,7 +11,7 @@ const { createAdmin } = query;
  * @class userModel
  */
 
-class UserModel {
+class AdminModel {
   /**
    *Creates an instance of UserModel.
    * @param {object} options - contains the required properties for creating a user
@@ -47,7 +47,7 @@ class UserModel {
       this.is_active,
       this.updated_at,
     ]);
-    } catch (error) {
+    } catch (e) {
       const dbError = new DBError({
         status: '' ,
         message: e.message
@@ -59,4 +59,4 @@ class UserModel {
   } 
 }
 
-export default UserModel;
+export default AdminModel;

@@ -1,10 +1,12 @@
 import { genericErrors, constants, ApiError } from "../../utils";
 import { errorResponse, moduleErrLogMessager, verifyToken } from "../../utils/helpers";
-import { fetchAdminByEmail, fetchAdminById } from '../../services/admin';
-import { signUpSchema } from "../../validations/index";
+import { fetchAdminByEmail } from '../../services/admin';
+import { getUserByEmail, getUserByUserByPhoneNumber } from '../../services/user';
+import { signUpAdminSchema, createUserSchema , loginSchema} from "../../validations";
+import { loggers } from "winston";
 
 
-const { STAFF_EMAIL_EXIST_VERIFICATION_FAIL } = constants;
+const { EMAIL_EXIST_VERIFICATION_FAIL, PHONE_NUMBER_CONFLICT } = constants;
 /**
  * Checks for token in the authorization and x-access-token header properties.
  * @private
@@ -55,24 +57,44 @@ const authenticate = (req, res, next) => {
   }
 };
 
+const checkIfPhoneNumberExist = async(req, res, next) => {
+  try {
+    const { phone_number } = req.body;
+    const user = await getUserByUserByPhoneNumber(phone_number);
+    if (user) {
+      return errorResponse(req, res, genericErrors.phoneNumberConflict);
+    }
+    next();
+  } catch (e) {
+     e.status = PHONE_NUMBER_CONFLICT();
+    moduleErrLogMessager(e);
+    return errorResponse(req, res, genericErrors.phoneNumberConflict);
+  }
+  }
+
 const checkIfUserExist = async (req, res, next) => {
   try {
-    const user = await fetchAdminByEmail(req.body.email);
+    let user;
+    const { email } = req.body;
+    if (req.body.role) {
+      user = await fetchAdminByEmail(req.body.email);
+    } else {
+     user = await getUserByEmail(email);
+    }
     if (user) {
       return errorResponse(req, res, genericErrors.emailConflict);
     }
     next();
   } catch (error) {
-    console.log(error);
-    error.status = STAFF_EMAIL_EXIST_VERIFICATION_FAIL;
+    error.status = EMAIL_EXIST_VERIFICATION_FAIL;
     moduleErrLogMessager(error);
     return errorResponse(req, res, genericErrors.verificationError);
   }
 };
 
-const validateCreateUserProfile = async(req, res, next) => {
+const validateCreateAdminProfile = async(req, res, next) => {
   try {
-      await signUpSchema.validateAsync(req.body);
+      await signUpAdminSchema.validateAsync(req.body);
       next();
     } catch (e) {
       const apiError = new ApiError({
@@ -83,6 +105,31 @@ const validateCreateUserProfile = async(req, res, next) => {
     }
 };
 
+const validateUserSignUpProfile = async(req, res, next) => {
+  try {
+      await createUserSchema.validateAsync(req.body);
+      next();
+    } catch (e) {
+      const apiError = new ApiError({
+        message: e.details[0].message,
+        status: 400
+      });
+      errorResponse(req, res, apiError);
+    }
+};
+
+const validateLoginSchema = async(req, res, next) => {
+  try {
+      await loginSchema.validateAsync(req.body);
+      next();
+    } catch (e) {
+      const apiError = new ApiError({
+        message: e.details[0].message,
+        status: 400
+      });
+      errorResponse(req, res, apiError);
+    }
+};
 /**
    * Validates staff's login credentials, with emphasis on the
    * existence of a user with the provided email address.
@@ -93,18 +140,23 @@ const validateCreateUserProfile = async(req, res, next) => {
    * @memberof StaffLoginEmailvalidator
    *
    */
-  const StaffLoginEmailvalidator = async(req, res, next) => {
+  const loginEmailValidator = async(req, res, next) => {
     try {
-      const userDetail = await fetchAdminById(req.body.email);
-      if (!userDetail) {
+      const { email, userType } = req.body;
+      let getDetails;
+      getDetails = userType === 'Admin' ? fetchAdminByEmail : userType === 'Client' ? getUserByEmail : null;
+      const details = await getDetails(email);
+      if (!details) {
+        logger.error('User not found in in method : loginEmailValidator in middlewares > auth > basic.js')
         return errorResponse(req, res, genericErrors.inValidLogin);
       }
-      req.user = userDetail;
+      req.user = details;
       next();
     } catch (e) {
-      e.status = constants.STAFF_EMAIL_EXIST_VERIFICATION_FAIL;
-      moduleErrLogMessager(e);
-      return errorResponse(req, res, genericErrors.verificationError);
+        logger.error(e);
+        e.status = `${e} in method : loginEmailValidator in middlewares > auth > basic.js`
+        moduleErrLogMessager(e);
+        return errorResponse(req, res, genericErrors.verificationError);
     }
   }
 
@@ -112,6 +164,9 @@ const validateCreateUserProfile = async(req, res, next) => {
 export {
   authenticate,
   checkIfUserExist,
-  validateCreateUserProfile,
-  StaffLoginEmailvalidator
+  validateCreateAdminProfile,
+  validateUserSignUpProfile,
+  loginEmailValidator,
+  checkIfPhoneNumberExist,
+  validateLoginSchema
 };

@@ -12,10 +12,10 @@ export const textSchema = (joiObject, field, max, min) => joiObject
     'any.required': `${field} is required`,
   });
 
-export const emailSchema = (joiObject) => joiObject.string().trim().email().required()
+export const emailSchema = (joiObject, field) => joiObject.string().trim().email().required()
   .messages({
     'string.base': 'Email address must be a valid string',
     'string.empty': 'Email address cannot be an empty string',
-    'any.required': 'Email address is required',
+    'any.required': `${field} is required`,
     'string.email': 'The Email address is invalid',
   });

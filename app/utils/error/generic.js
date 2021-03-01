@@ -9,7 +9,8 @@ const {
   INVALID_CREDENTIALS,
   ACCESS_REVOKED,
   EMAIL_CONFLICT,
-  STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG
+  EMAIL_EXIST_VERIFICATION_FAIL_MSG,
+  PHONE_NUMBER_CONFLICT
 } = constants;
 
 export default {
@@ -21,6 +22,7 @@ export default {
   conflictSignupError: new ApiError({message: INVALID_CREDENTIALS, status: 409}),
   authRequired: new ApiError({ message: AUTH_REQUIRED, status: 401 }),
   emailConflict: new ApiError({ status: 409, message: EMAIL_CONFLICT }),
-  verificationError:new ApiError({ message: STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG })
+  phoneNumberConflict: new ApiError({ status: 409, message: PHONE_NUMBER_CONFLICT() }),
+  verificationError:new ApiError({ message: EMAIL_EXIST_VERIFICATION_FAIL_MSG })
 
 };

@@ -1,4 +1,4 @@
-import authRoute from '../admin/auth';
+import authRoute from './auth';
 import { Router } from 'express';
 
 const router = Router();

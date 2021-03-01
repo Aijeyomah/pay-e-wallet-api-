@@ -23,5 +23,6 @@ export default class DbError extends ModuleError {
     this.name = this.constructor.name;
     this.message = options.message || DB_ERROR;
     this.status = options.status || 500;
+    this.stack = options.stack
   }
 }

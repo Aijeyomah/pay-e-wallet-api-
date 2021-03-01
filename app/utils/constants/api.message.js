@@ -3,6 +3,7 @@ export default {
   SUCCESS_RESPONSE: "Request was successfully processed",
   ACCESS_REVOKED: "Your access has been revoked",
   EMAIL_CONFLICT: "A user with your email already exists",
+  PHONE_NUMBER_CONFLICT: (phone_number) => `This phone number: ${phone_number} is already in use.`,
   DB_ERROR: "A database error occurred, either in redis or postgres",
   CREATE_USER_SUCCESSFULLY: "user created successfully",
   CREATE_ADMIN_FAILED: "Error registering user",
@@ -12,7 +13,8 @@ export default {
   INTERNAL_SERVER_ERROR: "Oops, something broke on the server!!!",
   INVALID_CREDENTIALS: "Invalid email/password",
   AUTH_REQUIRED: "Access denied,a valid access token is required",
-  STAFF_EMAIL_EXIST_VERIFICATION_FAIL_MSG: "Error verifying existence of email, try again.",
-  STAFF_EMAIL_EXIST_VERIFICATION_FAIL: 'STAFF_EMAIL_EXIST_VERIFICATION_FAIL',
+  EMAIL_EXIST_VERIFICATION_FAIL_MSG: "Error verifying existence of email, try again.",
+  EMAIL_EXIST_VERIFICATION_FAIL: 'EMAIL_EXIST_VERIFICATION_FAIL',
+  ROLE_NOT_SUFFICIENT: 'User is not authorized to perform the role'
 
 };
