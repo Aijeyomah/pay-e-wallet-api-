@@ -3,7 +3,6 @@ import db from '../db';
 import query from '../db/queries/auth';
 import { moduleErrLogMessager } from '../utils/helpers';
 
-
 const { createAdmin } = query;
 /**
 /**
@@ -35,28 +34,27 @@ class AdminModel {
 
   async save() {
     try {
-     return db.oneOrNone(createAdmin, [
-      this.id,
-      this.first_name,
-      this.last_name,
-      this.email,
-      this.phone_number,
-      this.password,
-      this.salt,
-      this.role,
-      this.is_active,
-      this.updated_at,
-    ]);
+      return db.oneOrNone(createAdmin, [
+        this.id,
+        this.first_name,
+        this.last_name,
+        this.email,
+        this.phone_number,
+        this.password,
+        this.salt,
+        this.role,
+        this.is_active,
+        this.updated_at,
+      ]);
     } catch (e) {
       const dbError = new DBError({
-        status: '' ,
+        status: '',
         message: e.message
       });
       moduleErrLogMessager(dbError);
       throw dbError;
-    }  
-    
-  } 
+    }
+  }
 }
 
 export default AdminModel;

@@ -1,14 +1,13 @@
-import AdminModel from "../../../models/admin";
-import { successResponse,errorResponse,hashPassword,compareHash,addTokenToUserData, regenerateUniqueId} from "../../../utils/helpers";
-import genericErrors from "../../../utils/error/generic";
-import { ApiError, constants } from "../../../utils";
-import queries from '../../../db/queries/auth'
+import AdminModel from '../../../models/admin';
+import { successResponse, errorResponse, hashPassword, compareHash, addTokenToUserData, regenerateUniqueId } from '../../../utils/helpers';
+import genericErrors from '../../../utils/error/generic';
+import { ApiError, constants } from '../../../utils';
+import queries from '../../../db/queries/auth';
 
-const { CREATE_USER_SUCCESSFULLY, LOGIN_USER_SUCCESSFULLY , CREATE_ADMIN_FAILED} = constants;
+const { CREATE_USER_SUCCESSFULLY, LOGIN_USER_SUCCESSFULLY, CREATE_ADMIN_FAILED } = constants;
 const { getAdminById } = queries;
 const createAdmin = async (req, res, next) => {
   try {
-    console.log(req.body);
     const { password } = req.body;
     req.body.id = await regenerateUniqueId('ST', getAdminById);
     const { hash, salt } = await hashPassword(password);
@@ -16,15 +15,14 @@ const createAdmin = async (req, res, next) => {
     req.body.hash = hash;
     const staff = new AdminModel(req.body);
     const data = await staff.save();
-    logger.info(`saving Admin-${req.body.id} details in controllers > auth > index.js`)
+    logger.info(`saving Admin-${req.body.id} details in controllers > auth > index.js`);
     return successResponse(res, {
-      status: 201 ,
+      status: 201,
       message: CREATE_USER_SUCCESSFULLY,
-      data: data
+      data
     });
   } catch (e) {
-   
-   next(new ApiError({message: CREATE_ADMIN_FAILED, errors: e.message }));
+    next(new ApiError({ message: CREATE_ADMIN_FAILED, errors: e.message }));
   }
 };
 
@@ -39,10 +37,10 @@ const login = async (req, res) => {
     return errorResponse(req, res, genericErrors.inValidLogin);
   }
   // if (!user.is_active) {
-    //return errorResponse(req, res, genericErrors.accessRevoked);
-  //}
+  // return errorResponse(req, res, genericErrors.accessRevoked);
+  // }
   const data = addTokenToUserData(user, true);
   successResponse(res, { data, message: LOGIN_USER_SUCCESSFULLY });
 };
 
-export { createAdmin , login };
+export { createAdmin, login };

@@ -1,10 +1,9 @@
-import { genericErrors, constants, ApiError } from "../../utils";
-import { errorResponse, moduleErrLogMessager, verifyToken } from "../../utils/helpers";
+import { loggers } from 'winston';
+import { genericErrors, constants, ApiError } from '../../utils';
+import { errorResponse, moduleErrLogMessager, verifyToken } from '../../utils/helpers';
 import { fetchAdminByEmail } from '../../services/admin';
 import { getUserByEmail, getUserByUserByPhoneNumber } from '../../services/user';
-import { signUpAdminSchema, createUserSchema , loginSchema} from "../../validations";
-import { loggers } from "winston";
-
+import { signUpAdminSchema, createUserSchema, loginSchema } from '../../validations';
 
 const { EMAIL_EXIST_VERIFICATION_FAIL, PHONE_NUMBER_CONFLICT } = constants;
 /**
@@ -17,7 +16,7 @@ const { EMAIL_EXIST_VERIFICATION_FAIL, PHONE_NUMBER_CONFLICT } = constants;
 const checkAuthorizationToken = (authorization) => {
   let bearerToken = null;
   if (authorization) {
-    const token = authorization.split(" ")[1];
+    const token = authorization.split(' ')[1];
     bearerToken = token || authorization;
   }
   return bearerToken;
@@ -36,10 +35,10 @@ const checkToken = (req) => {
   } = req;
   const bearerToken = checkAuthorizationToken(authorization);
   return (
-    bearerToken ||
-    req.headers["x-access-token"] ||
-    req.headers.token ||
-    req.body.token
+    bearerToken
+    || req.headers['x-access-token']
+    || req.headers.token
+    || req.body.token
   );
 };
 
@@ -57,7 +56,7 @@ const authenticate = (req, res, next) => {
   }
 };
 
-const checkIfPhoneNumberExist = async(req, res, next) => {
+const checkIfPhoneNumberExist = async (req, res, next) => {
   try {
     const { phone_number } = req.body;
     const user = await getUserByUserByPhoneNumber(phone_number);
@@ -66,11 +65,11 @@ const checkIfPhoneNumberExist = async(req, res, next) => {
     }
     next();
   } catch (e) {
-     e.status = PHONE_NUMBER_CONFLICT();
+    e.status = PHONE_NUMBER_CONFLICT();
     moduleErrLogMessager(e);
     return errorResponse(req, res, genericErrors.phoneNumberConflict);
   }
-  }
+};
 
 const checkIfUserExist = async (req, res, next) => {
   try {
@@ -79,7 +78,7 @@ const checkIfUserExist = async (req, res, next) => {
     if (req.body.role) {
       user = await fetchAdminByEmail(req.body.email);
     } else {
-     user = await getUserByEmail(email);
+      user = await getUserByEmail(email);
     }
     if (user) {
       return errorResponse(req, res, genericErrors.emailConflict);
@@ -92,43 +91,43 @@ const checkIfUserExist = async (req, res, next) => {
   }
 };
 
-const validateCreateAdminProfile = async(req, res, next) => {
+const validateCreateAdminProfile = async (req, res, next) => {
   try {
-      await signUpAdminSchema.validateAsync(req.body);
-      next();
-    } catch (e) {
-      const apiError = new ApiError({
-        message: e.details[0].message,
-        status: 400
-      });
-      errorResponse(req, res, apiError);
-    }
+    await signUpAdminSchema.validateAsync(req.body);
+    next();
+  } catch (e) {
+    const apiError = new ApiError({
+      message: e.details[0].message,
+      status: 400
+    });
+    errorResponse(req, res, apiError);
+  }
 };
 
-const validateUserSignUpProfile = async(req, res, next) => {
+const validateUserSignUpProfile = async (req, res, next) => {
   try {
-      await createUserSchema.validateAsync(req.body);
-      next();
-    } catch (e) {
-      const apiError = new ApiError({
-        message: e.details[0].message,
-        status: 400
-      });
-      errorResponse(req, res, apiError);
-    }
+    await createUserSchema.validateAsync(req.body);
+    next();
+  } catch (e) {
+    const apiError = new ApiError({
+      message: e.details[0].message,
+      status: 400
+    });
+    errorResponse(req, res, apiError);
+  }
 };
 
-const validateLoginSchema = async(req, res, next) => {
+const validateLoginSchema = async (req, res, next) => {
   try {
-      await loginSchema.validateAsync(req.body);
-      next();
-    } catch (e) {
-      const apiError = new ApiError({
-        message: e.details[0].message,
-        status: 400
-      });
-      errorResponse(req, res, apiError);
-    }
+    await loginSchema.validateAsync(req.body);
+    next();
+  } catch (e) {
+    const apiError = new ApiError({
+      message: e.details[0].message,
+      status: 400
+    });
+    errorResponse(req, res, apiError);
+  }
 };
 /**
    * Validates staff's login credentials, with emphasis on the
@@ -140,26 +139,25 @@ const validateLoginSchema = async(req, res, next) => {
    * @memberof StaffLoginEmailvalidator
    *
    */
-  const loginEmailValidator = async(req, res, next) => {
-    try {
-      const { email, userType } = req.body;
-      let getDetails;
-      getDetails = userType === 'Admin' ? fetchAdminByEmail : userType === 'Client' ? getUserByEmail : null;
-      const details = await getDetails(email);
-      if (!details) {
-        logger.error('User not found in in method : loginEmailValidator in middlewares > auth > basic.js')
-        return errorResponse(req, res, genericErrors.inValidLogin);
-      }
-      req.user = details;
-      next();
-    } catch (e) {
-        logger.error(e);
-        e.status = `${e} in method : loginEmailValidator in middlewares > auth > basic.js`
-        moduleErrLogMessager(e);
-        return errorResponse(req, res, genericErrors.verificationError);
+const loginEmailValidator = async (req, res, next) => {
+  try {
+    const { email, userType } = req.body;
+    let getDetails;
+    getDetails = userType === 'Admin' ? fetchAdminByEmail : userType === 'Client' ? getUserByEmail : null;
+    const details = await getDetails(email);
+    if (!details) {
+      logger.error('User not found in in method : loginEmailValidator in middlewares > auth > basic.js');
+      return errorResponse(req, res, genericErrors.inValidLogin);
     }
+    req.user = details;
+    next();
+  } catch (e) {
+    logger.error(e);
+    e.status = `${e} in method : loginEmailValidator in middlewares > auth > basic.js`;
+    moduleErrLogMessager(e);
+    return errorResponse(req, res, genericErrors.verificationError);
   }
-
+};
 
 export {
   authenticate,

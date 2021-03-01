@@ -1,14 +1,13 @@
-import { Router } from "express";
-import { checkIfUserExist, checkIfPhoneNumberExist, validateCreateAdminProfile, validateUserSignUpProfile, validateLoginSchema, loginEmailValidator, roleAccessValidator, authenticate } from '../../middlewares/auth/';
+import { Router } from 'express';
+import { checkIfUserExist, checkIfPhoneNumberExist, validateCreateAdminProfile, validateUserSignUpProfile, validateLoginSchema, loginEmailValidator, roleAccessValidator, authenticate } from '../../middlewares/auth';
 import { } from '../../utils/helpers';
 import { createAdmin, login } from '../../controllers/Admin/auth/index';
 import { userSignUp } from '../../controllers/user/auth/index';
-import { adminAccessValidator } from "../../middlewares/auth/role";
-
+import { adminAccessValidator } from '../../middlewares/auth/role';
 
 const router = Router();
 router.post(
-  "/create-admin",
+  '/create-admin',
   authenticate,
   roleAccessValidator(['super_admin']),
   validateCreateAdminProfile,
@@ -17,7 +16,7 @@ router.post(
 );
 
 router.post(
-  "/register",
+  '/register',
   validateUserSignUpProfile,
   checkIfPhoneNumberExist,
   checkIfUserExist,
@@ -25,11 +24,10 @@ router.post(
 );
 
 router.post(
-  "/login",
+  '/login',
   validateLoginSchema,
   loginEmailValidator,
   login
 );
-
 
 export default router;

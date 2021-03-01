@@ -1,3 +1,3 @@
-import db from "./setup/postgres";
+import db from './setup/postgres';
 
-export { db as default};
+export { db as default };

@@ -68,8 +68,8 @@ const myFormat = winston.format.printf(info => {
   if (info instanceof Error) {
     return `${info.timestamp} [${info.label}] ${info.level}: ${info.message} ${info.stack}`;
   }
-  return `[${new Date(info.timestamp).toUTCString()}] - ${info.level}: ${info.message})`
-})
+  return `[${new Date(info.timestamp).toUTCString()}] - ${info.level}: ${info.message})`;
+});
 /**
  * Creates a logger.
  * @param {String} env - Node Environment value.

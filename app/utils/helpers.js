@@ -1,11 +1,11 @@
-import bcrypt from "bcrypt";
-import { sha256 } from "js-sha256";
-import jwt from "jsonwebtoken";
-import { v4 as uuidV4 } from "uuid";
-import config from "./../../config/";
-import genericErrors from "./error/generic";
-import {  constants, DBError, ModuleError } from "../utils";
-import db from "../db";
+import bcrypt from 'bcrypt';
+import { sha256 } from 'js-sha256';
+import jwt from 'jsonwebtoken';
+import { v4 as uuidV4 } from 'uuid';
+import config from '../../config';
+import genericErrors from './error/generic';
+import { constants, DBError, ModuleError } from '.';
+import db from '../db';
 
 const { SUCCESS_RESPONSE, SUCCESS, FAIL } = constants;
 const { serverError } = genericErrors;
@@ -14,24 +14,18 @@ const { SECRET } = config;
 const successResponse = (
   res,
   { message = SUCCESS_RESPONSE, data, code = 200 }
-) => {
-  return res.status(code).json({
-    status: SUCCESS,
-    message,
-    data,
-  });
-};
+) => res.status(code).json({
+  status: SUCCESS,
+  message,
+  data,
+});
 
-const apiErrLogMessanger = (error, req) => {
-  return logger.error(
-    `${error.name} - ${error.status} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip} 
+const apiErrLogMessanger = (error, req) => logger.error(
+  `${error.name} - ${error.status} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip} 
     `
-  );
-};
+);
 
-const moduleErrLogMessager = (error) => {
-  return logger.error(`${error.name} - ${error.status} - ${error.message} - ${error.stack}`);
-};
+const moduleErrLogMessager = (error) => logger.error(`${error.name} - ${error.status} - ${error.message} - ${error.stack}`);
 
 const errorResponse = (req, res, error) => {
   const aggregateError = { ...serverError, ...error };
@@ -58,23 +52,19 @@ const makeError = ({ error, status, errors }, isDBError = true) => {
 /**
  * @returns - a unique identification number
  */
-const generateId = () => {
-  return uuidV4();
-};
+const generateId = () => uuidV4();
 
 /**
  * @returns - a unique identification number
  */
-const generateUniqueId = (prefix) => {
-  return `${prefix}-${Math.random().toString(10).substr(2, 5)}`
-};
+const generateUniqueId = (prefix) => `${prefix}-${Math.random().toString(10).substr(2, 5)}`;
 
 /** regenerate id if it already exist in the db;
  * @returns - a unique identification number
  */
-const  regenerateUniqueId = async(prefix, query) => {
+const regenerateUniqueId = async (prefix, query) => {
   const id = generateUniqueId(prefix);
-  const existingId = await db.oneOrNone(query, [id])
+  const existingId = await db.oneOrNone(query, [id]);
   if (!existingId) {
     return id;
   }
@@ -131,9 +121,7 @@ const compareHash = (plain, hash, salt) => {
  * @memberof Helper
  * @returns {string} - JWT Token
  */
-const generateToken = (payload, expiresIn = "3h") => {
-  return jwt.sign(payload, SECRET, { expiresIn });
-};
+const generateToken = (payload, expiresIn = '3h') => jwt.sign(payload, SECRET, { expiresIn });
 
 /**
  * This verify the JWT token with the secret with which the token was issued with
@@ -142,9 +130,7 @@ const generateToken = (payload, expiresIn = "3h") => {
  * @returns {string | number | Buffer | object } - Decoded JWT payload if
  * token is valid or an error message if otherwise.
  */
-const verifyToken = (token) => {
-  return jwt.verify(token, SECRET);
-};
+const verifyToken = (token) => jwt.verify(token, SECRET);
 
 const addTokenToUserData = (user, is_admin = false) => {
   const { id, is_active, role, email } = user;
