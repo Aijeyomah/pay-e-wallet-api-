@@ -1,12 +1,11 @@
 import UserModel from '../../../models/user';
-import { successResponse, errorResponse, hashPassword, regenerateUniqueId } from '../../../utils/helpers';
-import genericErrors from '../../../utils/error/generic';
-import { ApiError, constants } from '../../../utils';
+import { successResponse, hashPassword, regenerateUniqueId } from '../../../utils/helpers';
+import { ApiError, constants, genericErrors } from '../../../utils';
 import queries from '../../../db/queries/auth';
 
 const { CREATE_USER_SUCCESSFULLY, CREATE_ADMIN_FAILED } = constants;
 const { getUserById } = queries;
-const userSignUp = async (req, res, next) => {
+const userSignUp = async(req, res, next) => {
   try {
     const { password } = req.body;
     req.body.id = await regenerateUniqueId('USR', getUserById);
@@ -19,7 +18,7 @@ const userSignUp = async (req, res, next) => {
     return successResponse(res, {
       status: 201,
       message: CREATE_USER_SUCCESSFULLY,
-      data
+      data,
     });
   } catch (e) {
     logger.error(e);

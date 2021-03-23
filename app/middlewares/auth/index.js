@@ -5,7 +5,7 @@ import {
   validateUserSignUpProfile,
   loginEmailValidator,
   checkIfPhoneNumberExist,
-  validateLoginSchema
+  validateLoginSchema,
 } from './basic';
 
 import { roleAccessValidator } from './role';
@@ -18,5 +18,5 @@ export {
   loginEmailValidator,
   checkIfPhoneNumberExist,
   validateLoginSchema,
-  roleAccessValidator
+  roleAccessValidator,
 };

@@ -1,0 +1,81 @@
+{
+    "swagger": 2.0,
+    "info": {
+        "version": "1.0",
+        "title": "E-Wallet",
+        "description": "E-wallet REST API Documentation."
+    },
+    "servers": [{
+        "url": "http://localhost:3500/"
+    }],
+    "host": "",
+    "basePath": "/api/v1",
+    "securityDefinitions": {
+        "Bearer": {
+            "description": "Standard Authorization header using the bearer scheme. Example: \"bearer {token}\"",
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    },
+    "tags": [{
+            "name": "Auth",
+            "description": "Endpoints for Authentication"
+        },
+        {
+            "name": "User",
+            " description": "Endpoints for Users"
+        }
+    ],
+    "path": {
+        "/auth/create-admin": {
+            "post": {
+                "description": "Register an admin",
+                "summary": "Create a new Admin "
+                "tags": [
+                    "Auth"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "security": [],
+                "parameters": [{
+                    "in": "body",
+                    "name": "body",
+                    "required": true,
+                    "description": "This is the request body object containing user information",
+                    "schema": {
+                        "$ref": "#/components/schemas/requestBody/signupRequest"
+                    }
+                }],
+                "responses": {
+                    "201": {
+                        "description": "Successfully created a new user. Note that a cookie has been set to always deliver your token to the server when ever you try to access a protected route, hence until your token expires, you do not need to manually add your token to successfully access all protected endpoints.",
+                        "schema": {
+                            "$ref": "#/components/schemas/responseBody/201"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request, Validation error occurred",
+                        "schema": {
+                            "$ref": "#/components/schemas/responseBody/400"
+                        }
+                    },
+                    "409": {
+                        "description": "Email address already exists",
+                        "schema": {
+                            "$ref": "#/components/schemas/responseBody/409"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "$ref": "#/components/schemas/responseBody/500"
+                        }
+                    }
+                }
+            }
+        },
+    }
+
+}

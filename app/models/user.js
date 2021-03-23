@@ -25,13 +25,13 @@ class UserModel {
         this.email,
         this.phone_number,
         this.password,
-        this.salt
+        this.salt,
       ]);
     } catch (e) {
       const dbError = new DBError({
         status: 500,
         message: e.message,
-        stack: e.stack
+        stack: e.stack,
       });
       moduleErrLogMessager(dbError);
       throw dbError;

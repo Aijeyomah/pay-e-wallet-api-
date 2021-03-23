@@ -3,6 +3,7 @@ import genericErrors from './error/generic';
 import ApiError from './error/api.error';
 import ModuleError from './error/module.error';
 import DBError from './error/db.error';
+import { getAllBanks } from './paystack';
 
 export {
   constants,
@@ -10,5 +11,6 @@ export {
   ApiError,
   ModuleError,
   DBError,
+  getAllBanks,
 
 };

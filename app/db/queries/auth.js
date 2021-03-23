@@ -61,6 +61,6 @@ export default {
 	  users
   WHERE
     phone_number = $1
-  `
+  `,
 
 };

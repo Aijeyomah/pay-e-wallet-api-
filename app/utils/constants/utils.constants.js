@@ -1,3 +1,3 @@
 export default {
-  ROLE_ARRAY: ['super', 'staff'],
+  ROLE_ARRAY: [ 'super', 'staff' ],
 };

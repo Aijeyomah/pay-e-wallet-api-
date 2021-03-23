@@ -28,32 +28,32 @@ const consoleOptions = {
 const makeOptions = env => {
   let options = null;
   switch (env) {
-    case 'test':
-      options = {
-        file: {
-          ...fileOptions,
-          filename: `${logDir}/test.log`,
-          maxFiles: 50
-        }
-      };
-      break;
-    case 'production':
-      options = {
-        file: {
-          ...fileOptions,
-          maxFiles: 600
-        },
-        console: {
-          ...consoleOptions,
-          level: 'error'
-        }
-      };
-      break;
-    default:
-      options = {
-        file: fileOptions,
-        console: consoleOptions
-      };
+  case 'test':
+    options = {
+      file: {
+        ...fileOptions,
+        filename: `${logDir}/test.log`,
+        maxFiles: 50,
+      },
+    };
+    break;
+  case 'production':
+    options = {
+      file: {
+        ...fileOptions,
+        maxFiles: 600,
+      },
+      console: {
+        ...consoleOptions,
+        level: 'error',
+      },
+    };
+    break;
+  default:
+    options = {
+      file: fileOptions,
+      console: consoleOptions,
+    };
   }
   return options;
 };
@@ -77,12 +77,12 @@ const myFormat = winston.format.printf(info => {
  */
 const initLogger = (env) => {
   const { file, console: cons } = makeOptions(env);
-  if (!fs.existsSync(logDir)) fs.mkdirSync(logDir);
+  if (!fs.existsSync(logDir)) { fs.mkdirSync(logDir); }
   const logger = winston.createLogger({
     format: winston.format.combine(
       winston.format.timestamp(),
       winston.format.colorize(),
-      myFormat
+      myFormat,
     ),
     transports: [
       new winston.transports.File(file),

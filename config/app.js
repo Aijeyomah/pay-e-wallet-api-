@@ -1,7 +1,7 @@
 import { json, urlencoded } from 'express';
 import morgan from 'morgan';
 import config from './env';
-import authRoute from '../app/routes/auth';
+import apiV1Routes from '../app/routes/v1';
 import { genericErrors, constants } from '../app/utils';
 import { errorResponse, successResponse } from '../app/utils/helpers';
 
@@ -21,7 +21,7 @@ const appConfig = (app) => {
   app.get('/', (req, res) => {
     successResponse(res, { message: WELCOME });
   });
-  app.use('/api/v1', authRoute);
+  app.use('/api/v1', apiV1Routes);
 
   // catches 404 errors and forwards them to error handlers
   app.use((req, res, next) => next(notFoundApi));

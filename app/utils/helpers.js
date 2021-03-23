@@ -3,8 +3,10 @@ import { sha256 } from 'js-sha256';
 import jwt from 'jsonwebtoken';
 import { v4 as uuidV4 } from 'uuid';
 import config from '../../config';
-import genericErrors from './error/generic';
-import { constants, DBError, ModuleError } from '.';
+// import { genericErrors } from './index';
+import {
+  constants, DBError, ModuleError, genericErrors,
+} from '.';
 import db from '../db';
 
 const { SUCCESS_RESPONSE, SUCCESS, FAIL } = constants;
@@ -13,7 +15,7 @@ const { SECRET } = config;
 
 const successResponse = (
   res,
-  { message = SUCCESS_RESPONSE, data, code = 200 }
+  { message = SUCCESS_RESPONSE, data, code = 200 },
 ) => res.status(code).json({
   status: SUCCESS,
   message,
@@ -22,7 +24,7 @@ const successResponse = (
 
 const apiErrLogMessanger = (error, req) => logger.error(
   `${error.name} - ${error.status} - ${error.message} - ${req.originalUrl} - ${req.method} - ${req.ip} 
-    `
+    `,
 );
 
 const moduleErrLogMessager = (error) => logger.error(`${error.name} - ${error.status} - ${error.message} - ${error.stack}`);
@@ -45,7 +47,7 @@ const makeError = ({ error, status, errors }, isDBError = true) => {
   } else {
     err = new ModuleError({ message, status });
   }
-  if (errors) err.errors = errors;
+  if (errors) { err.errors = errors; }
   moduleErrLogMessager(err);
   return err;
 };
@@ -62,9 +64,9 @@ const generateUniqueId = (prefix) => `${prefix}-${Math.random().toString(10).sub
 /** regenerate id if it already exist in the db;
  * @returns - a unique identification number
  */
-const regenerateUniqueId = async (prefix, query) => {
+const regenerateUniqueId = async(prefix, query) => {
   const id = generateUniqueId(prefix);
-  const existingId = await db.oneOrNone(query, [id]);
+  const existingId = await db.oneOrNone(query, [ id ]);
   if (!existingId) {
     return id;
   }
@@ -133,8 +135,12 @@ const generateToken = (payload, expiresIn = '3h') => jwt.sign(payload, SECRET, {
 const verifyToken = (token) => jwt.verify(token, SECRET);
 
 const addTokenToUserData = (user, is_admin = false) => {
-  const { id, is_active, role, email } = user;
-  const token = generateToken({ id, is_active, role, email, is_admin });
+  const {
+    id, is_active, role, email,
+  } = user;
+  const token = generateToken({
+    id, is_active, role, email, is_admin,
+  });
   return {
     id,
     first_name: user.first_name,
@@ -157,5 +163,5 @@ export {
   generateToken,
   verifyToken,
   addTokenToUserData,
-  regenerateUniqueId
+  regenerateUniqueId,
 };

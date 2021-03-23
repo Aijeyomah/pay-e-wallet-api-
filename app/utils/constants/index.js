@@ -5,5 +5,5 @@ import utilsConstant from './utils.constants';
 export default {
   ...apiMessage,
   ...processStatus,
-  ...utilsConstant
+  ...utilsConstant,
 };

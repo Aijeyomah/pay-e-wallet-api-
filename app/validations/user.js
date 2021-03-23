@@ -13,7 +13,7 @@ export const signUpAdminSchema = Joi.object({
 export const loginSchema = Joi.object({
   password: textSchema(Joi, 'password', 100, 5),
   email: emailSchema(Joi, 'email'),
-  userType: textSchema(Joi, 'userType', 10, 2)
+  userType: textSchema(Joi, 'userType', 10, 2),
 });
 
 export const createUserSchema = Joi.object({

@@ -1,4 +1,3 @@
-import { loggers } from 'winston';
 import { genericErrors, constants, ApiError } from '../../utils';
 import { errorResponse, moduleErrLogMessager, verifyToken } from '../../utils/helpers';
 import { fetchAdminByEmail } from '../../services/admin';
@@ -35,10 +34,10 @@ const checkToken = (req) => {
   } = req;
   const bearerToken = checkAuthorizationToken(authorization);
   return (
-    bearerToken
-    || req.headers['x-access-token']
-    || req.headers.token
-    || req.body.token
+    bearerToken ||
+        req.headers['x-access-token'] ||
+        req.headers.token ||
+        req.body.token
   );
 };
 
@@ -56,7 +55,7 @@ const authenticate = (req, res, next) => {
   }
 };
 
-const checkIfPhoneNumberExist = async (req, res, next) => {
+const checkIfPhoneNumberExist = async(req, res, next) => {
   try {
     const { phone_number } = req.body;
     const user = await getUserByUserByPhoneNumber(phone_number);
@@ -71,7 +70,7 @@ const checkIfPhoneNumberExist = async (req, res, next) => {
   }
 };
 
-const checkIfUserExist = async (req, res, next) => {
+const checkIfUserExist = async(req, res, next) => {
   try {
     let user;
     const { email } = req.body;
@@ -91,55 +90,55 @@ const checkIfUserExist = async (req, res, next) => {
   }
 };
 
-const validateCreateAdminProfile = async (req, res, next) => {
+const validateCreateAdminProfile = async(req, res, next) => {
   try {
     await signUpAdminSchema.validateAsync(req.body);
     next();
   } catch (e) {
     const apiError = new ApiError({
       message: e.details[0].message,
-      status: 400
+      status: 400,
     });
     errorResponse(req, res, apiError);
   }
 };
 
-const validateUserSignUpProfile = async (req, res, next) => {
+const validateUserSignUpProfile = async(req, res, next) => {
   try {
     await createUserSchema.validateAsync(req.body);
     next();
   } catch (e) {
     const apiError = new ApiError({
       message: e.details[0].message,
-      status: 400
+      status: 400,
     });
     errorResponse(req, res, apiError);
   }
 };
 
-const validateLoginSchema = async (req, res, next) => {
+const validateLoginSchema = async(req, res, next) => {
   try {
     await loginSchema.validateAsync(req.body);
     next();
   } catch (e) {
     const apiError = new ApiError({
       message: e.details[0].message,
-      status: 400
+      status: 400,
     });
     errorResponse(req, res, apiError);
   }
 };
 /**
-   * Validates staff's login credentials, with emphasis on the
-   * existence of a user with the provided email address.
-   * @param { Object } req - The request from the endpoint.
-   * @param { Object } res - The response returned by the method.
-   * @param { function } next - Calls the next handle.
-   * @returns { JSON | Null } - Returns error response if validation fails or Null if otherwise.
-   * @memberof StaffLoginEmailvalidator
-   *
-   */
-const loginEmailValidator = async (req, res, next) => {
+ * Validates staff's login credentials, with emphasis on the
+ * existence of a user with the provided email address.
+ * @param { Object } req - The request from the endpoint.
+ * @param { Object } res - The response returned by the method.
+ * @param { function } next - Calls the next handle.
+ * @returns { JSON | Null } - Returns error response if validation fails or Null if otherwise.
+ * @memberof StaffLoginEmailvalidator
+ *
+ */
+const loginEmailValidator = async(req, res, next) => {
   try {
     const { email, userType } = req.body;
     let getDetails;
@@ -166,5 +165,5 @@ export {
   validateUserSignUpProfile,
   loginEmailValidator,
   checkIfPhoneNumberExist,
-  validateLoginSchema
+  validateLoginSchema,
 };

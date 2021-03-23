@@ -15,6 +15,8 @@ export default {
   AUTH_REQUIRED: 'Access denied,a valid access token is required',
   EMAIL_EXIST_VERIFICATION_FAIL_MSG: 'Error verifying existence of email, try again.',
   EMAIL_EXIST_VERIFICATION_FAIL: 'EMAIL_EXIST_VERIFICATION_FAIL',
-  ROLE_NOT_SUFFICIENT: 'User is not authorized to perform the role'
+  ROLE_NOT_SUFFICIENT: 'User is not authorized to perform the role',
+  SUCCESSFULLY_FETCHED_BANK_DATA: 'Successfully fetched banks',
+  ERROR_FETCHING_BANK_DETAILS: 'Error fetching banks',
 
 };

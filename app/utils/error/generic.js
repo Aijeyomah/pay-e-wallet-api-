@@ -10,7 +10,7 @@ const {
   ACCESS_REVOKED,
   EMAIL_CONFLICT,
   EMAIL_EXIST_VERIFICATION_FAIL_MSG,
-  PHONE_NUMBER_CONFLICT
+  PHONE_NUMBER_CONFLICT,
 } = constants;
 
 export default {
@@ -23,6 +23,6 @@ export default {
   authRequired: new ApiError({ message: AUTH_REQUIRED, status: 401 }),
   emailConflict: new ApiError({ status: 409, message: EMAIL_CONFLICT }),
   phoneNumberConflict: new ApiError({ status: 409, message: PHONE_NUMBER_CONFLICT() }),
-  verificationError: new ApiError({ message: EMAIL_EXIST_VERIFICATION_FAIL_MSG })
+  verificationError: new ApiError({ message: EMAIL_EXIST_VERIFICATION_FAIL_MSG }),
 
 };

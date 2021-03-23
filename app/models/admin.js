@@ -12,12 +12,12 @@ const { createAdmin } = query;
 
 class AdminModel {
   /**
-   *Creates an instance of UserModel.
-   * @param {object} options - contains the required properties for creating a user
-   * @memberof UserModel
-   * @returns { UserModel } - An instance of the User Model.
-   * @constructor UserModel
-   */
+     *Creates an instance of AdminModel.
+     * @param {object} options - contains the required properties for creating an admin
+     * @memberof AdminModel
+     * @returns { AdminModel } - An instance of the User Model.
+     * @constructor UserModel
+     */
   constructor(options) {
     this.id = options.id;
     this.first_name = options.firstName;
@@ -49,7 +49,7 @@ class AdminModel {
     } catch (e) {
       const dbError = new DBError({
         status: '',
-        message: e.message
+        message: e.message,
       });
       moduleErrLogMessager(dbError);
       throw dbError;
