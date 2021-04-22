@@ -26,5 +26,7 @@ export default {
   INVALID_ACCOUNT_NUMBER: 'The provided account number does not belong to this user',
   SUCCESSFULLY_SAVED_ACCOUNT_NUMBER: 'Successfully saved bank account details',
   SUCCESSFULLY_CONNECTED_CARD: 'Successfully connected card',
-  ERROR_SAVING_ACCOUNT_NUMBER: 'Successfully saved bank account details',
+  ERROR_SAVING_ACCOUNT_NUMBER: 'Error saving bank details',
+  ERROR_CONNECTING_CARD: 'Error connecting card to wallet',
+
 };

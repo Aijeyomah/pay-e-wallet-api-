@@ -40,10 +40,9 @@ export const verifyPaymentTransaction = async(req, res, next) => {
   try {
     const { reference } = req.params;
     const bankDetails = await verifyTransaction(reference);
-    if (bankDetails.status && bankDetails.status !== 'success') {
+    if (bankDetails.status && bankDetails.data.status !== 'success') {
       return errorResponse(req, res, genericErrors.paystackError(bankDetails.data.gateway_response));
     }
-
     const {
       id, customer_code, email, first_name, last_name,
     } = bankDetails.data.customer;
@@ -55,7 +54,7 @@ export const verifyPaymentTransaction = async(req, res, next) => {
     const details = {
       id, customer_code, email, fullName, authorization_code, last4, card_type, signature, expiryDate,
     };
-    req.data = details;
+    req.cardData = details;
     next();
   } catch (e) {
     moduleErrLogMessager(e);

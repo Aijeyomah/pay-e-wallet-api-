@@ -2309,3 +2309,245 @@ Error: listen EADDRINUSE: address already in use :::7080
 [Thu, 22 Apr 2021 14:42:09 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:42:09 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 63 "-" "PostmanRuntime/7.26.8"
 )
 [Thu, 22 Apr 2021 14:44:01 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:47:17 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:47:18 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:47:18 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:47:18 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:48:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:48:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:48:46 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:48:46 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:48:46 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:50:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:50:03 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:50:03 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:50:03 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:50:16 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:50:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:51:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:51:05 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:51:05 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:51:05 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:51:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:51:24 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:51:24 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:51:24 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:52:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:52:55 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:52:55 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:52:55 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:53:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:53:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:53:44 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:53:49 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:53:51 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:53:51 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:53:51 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:53:59 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:54:16 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:54:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:54:23 GMT] - [31merror[39m: ApiError - 401 - Successful - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:54:23 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:54:23 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 40 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:54:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:54:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:54:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:55:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:55:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-22T14:55:52.348Z [undefined] [31merror[39m: Cannot read property 'user_id' of undefined TypeError: Cannot read property 'user_id' of undefined
+    at connectCard (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:125:51)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:59:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Thu, 22 Apr 2021 14:55:52 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:55:52 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 766 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:56:13 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-22T14:56:15.189Z [undefined] [31merror[39m: Cannot read property 'id' of undefined TypeError: Cannot read property 'id' of undefined
+    at connectCard (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:125:51)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:59:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Thu, 22 Apr 2021 14:56:15 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:56:15 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 766 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:56:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:56:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:56:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:57:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-22T14:57:01.613Z [undefined] [31merror[39m: Cannot read property 'id' of undefined TypeError: Cannot read property 'id' of undefined
+    at connectCard (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:128:51)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:59:5)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Thu, 22 Apr 2021 14:57:01 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:57:01 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 766 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:59:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:59:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:59:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:59:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:59:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:59:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:00:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:00:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:00:10 GMT] - [31merror[39m: DbError - 500 - column "card_type" of relation "user_deposit_bank_details" does not exist - undefined)
+2021-04-22T15:00:10.196Z [undefined] [31merror[39m: column "card_type" of relation "user_deposit_bank_details" does not exist undefined
+[Thu, 22 Apr 2021 15:00:10 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:00:10 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 288 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:01:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:06:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:06:34 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:06:36 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:06:50 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:06:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:07:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:07:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:07:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:07:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:07:59 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:08:13 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:08:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:09:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:09:30 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:09:42 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:09:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:12:30 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:12:32 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:12:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:12:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:12:41 GMT] - [31merror[39m: DbError - 500 - column "card_type" of relation "user_deposit_bank_details" does not exist - undefined)
+2021-04-22T15:12:41.301Z [undefined] [31merror[39m: column "card_type" of relation "user_deposit_bank_details" does not exist undefined
+[Thu, 22 Apr 2021 15:12:41 GMT] - [31merror[39m: ApiError - 400 - Error connecting to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:12:41 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:12:41 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 400 56 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:12:59 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:14:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:14:49 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:14:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:15:08 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:15:11 GMT] - [31merror[39m: DbError - 500 - column "card_type" of relation "user_deposit_bank_details" does not exist - undefined)
+[Thu, 22 Apr 2021 15:15:11 GMT] - [31merror[39m: ApiError - 500 - Error saving bank details - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:15:11 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:15:11 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 144 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:15:41 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:15:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:15:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:15:58 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:42 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:16:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:17:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:17:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:18:01 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:18:04 GMT] - [31merror[39m: DbError - 500 - column "card_type" of relation "user_deposit_bank_details" does not exist - undefined)
+2021-04-22T15:18:04.352Z [undefined] [31merror[39m: column "card_type" of relation "user_deposit_bank_details" does not exist undefined
+[Thu, 22 Apr 2021 15:18:04 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:18:04 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:18:04 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 150 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:20:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:20:54 GMT] - [31merror[39m: DbError - 500 - column "signature" of relation "user_deposit_bank_details" does not exist - undefined)
+2021-04-22T15:20:54.650Z [undefined] [31merror[39m: column "signature" of relation "user_deposit_bank_details" does not exist undefined
+[Thu, 22 Apr 2021 15:20:54 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:20:54 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:20:54 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 150 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:23:13 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:23:16 GMT] - [31merror[39m: DbError - 500 - column "card_expiry_date" of relation "user_deposit_bank_details" does not exist - undefined)
+2021-04-22T15:23:16.054Z [undefined] [31merror[39m: column "card_expiry_date" of relation "user_deposit_bank_details" does not exist undefined
+[Thu, 22 Apr 2021 15:23:16 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:23:16 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:23:16 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 157 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:26:36 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:26:38 GMT] - [31merror[39m: DbError - 500 - null value in column "customer_id" violates not-null constraint - undefined)
+2021-04-22T15:26:38.965Z [undefined] [31merror[39m: null value in column "customer_id" violates not-null constraint undefined
+[Thu, 22 Apr 2021 15:26:38 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:26:38 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:26:38 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 138 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:29:59 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:30:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:30:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:30:37 GMT] - [31merror[39m: DbError - 500 - null value in column "customer_id" violates not-null constraint - undefined)
+2021-04-22T15:30:37.485Z [undefined] [31merror[39m: null value in column "customer_id" violates not-null constraint undefined
+[Thu, 22 Apr 2021 15:30:37 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:30:37 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:30:37 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 138 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:31:14 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:31:15 GMT] - [31merror[39m: DbError - 500 - null value in column "customer_id" violates not-null constraint - undefined)
+2021-04-22T15:31:15.843Z [undefined] [31merror[39m: null value in column "customer_id" violates not-null constraint undefined
+[Thu, 22 Apr 2021 15:31:15 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:31:15 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:31:15 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 138 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:31:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:31:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:31:56 GMT] - [31merror[39m: DbError - 500 - null value in column "customer_id" violates not-null constraint - undefined)
+2021-04-22T15:31:56.787Z [undefined] [31merror[39m: null value in column "customer_id" violates not-null constraint undefined
+[Thu, 22 Apr 2021 15:31:56 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:31:56 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:31:56 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 138 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:32:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:32:54 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:32:57 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:33:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:33:09 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:33:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:33:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:33:39 GMT] - [31merror[39m: DbError - 500 - null value in column "customer_id" violates not-null constraint - undefined)
+2021-04-22T15:33:39.770Z [undefined] [31merror[39m: null value in column "customer_id" violates not-null constraint undefined
+[Thu, 22 Apr 2021 15:33:39 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:33:39 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:33:39 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 138 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:35:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:35:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:35:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:35:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:37:19 GMT] - [31merror[39m: DbError - 500 - null value in column "customer_id" violates not-null constraint - undefined)
+2021-04-22T15:37:19.094Z [undefined] [31merror[39m: null value in column "customer_id" violates not-null constraint undefined
+[Thu, 22 Apr 2021 15:37:19 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:37:19 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:37:19 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 138 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:37:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:38:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:38:16 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:38:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:38:32 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:38:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:38:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:38:47 GMT] - [31merror[39m: DbError - 500 - null value in column "reference" violates not-null constraint - undefined)
+2021-04-22T15:38:47.612Z [undefined] [31merror[39m: null value in column "reference" violates not-null constraint undefined
+[Thu, 22 Apr 2021 15:38:47 GMT] - [31merror[39m: ApiError - 500 - Error connecting card to wallet - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 15:38:47 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:38:47 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 500 136 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:39:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:39:29 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:39:29 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 200 60 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 15:39:36 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:44:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 15:44:24 GMT] - [32minfo[39m: Saving bank details.....)
+[Thu, 22 Apr 2021 15:44:24 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:15:44:24 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)

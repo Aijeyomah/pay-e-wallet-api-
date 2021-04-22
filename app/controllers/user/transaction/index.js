@@ -17,6 +17,7 @@ const {
   SUCCESSFULLY_SAVED_ACCOUNT_NUMBER,
   SUCCESSFULLY_CONNECTED_CARD,
   ERROR_SAVING_ACCOUNT_NUMBER,
+  ERROR_CONNECTING_CARD,
 } = constants;
 
 /**
@@ -121,13 +122,15 @@ const confirmAccountDetails = async(req, res, next) => {
  */
 const connectCard = async(req, res, next) => {
   try {
-    const { data, params, user } = req;
-    const card = new DepositModel({ data, ...user.user_id, ...params.reference });
+    const { data, params, cardData } = req;
+    const { id: user_id } = data;
+    const { reference } = params;
+    const card = new DepositModel({ ...cardData, reference, user_id });
     const cardDetails = await card.save();
     successResponse(res, { message: SUCCESSFULLY_CONNECTED_CARD, data: cardDetails });
   } catch (e) {
     logger.error(e);
-    next(new ApiError({ message: ERROR_SAVING_ACCOUNT_NUMBER, errors: e.message }));
+    next(new ApiError({ message: ERROR_CONNECTING_CARD, errors: e.message }));
   }
 };
 

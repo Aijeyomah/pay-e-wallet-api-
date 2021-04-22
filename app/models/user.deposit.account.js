@@ -10,7 +10,7 @@ import { moduleErrLogMessager } from '../utils/helpers';
  */
 class DepositModel {
   constructor(options) {
-    this.customer_id = options.customer_id;
+    this.customer_id = options.id;
     this.customer_code = options.customer_code;
     this.reference = options.reference;
     this.email = options.email;

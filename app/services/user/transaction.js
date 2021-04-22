@@ -50,8 +50,8 @@ export const verifyBankAccount = async({ bankCode, accountNumber }) => {
  */
 export const verifyTransaction = async(payment_ref) => {
   try {
-   const url = `${baseUrl}/transaction/verify/${payment_ref}`
-   
+    const url = `${baseUrl}/transaction/verify/${payment_ref}`;
+
     const result = await axios.get(url, configData);
     return result.data;
   } catch (e) {
