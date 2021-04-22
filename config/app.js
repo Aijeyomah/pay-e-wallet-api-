@@ -27,7 +27,7 @@ const appConfig = (app) => {
   app.use((req, res, next) => next(notFoundApi));
 
   // handles all forwarded errors
-  app.use((err, req, res, next) => errorResponse(req, res, err));
+  app.use((err, req, res) => errorResponse(req, res, err));
 
   // server listens for connection
   const port = config.PORT || 4000;

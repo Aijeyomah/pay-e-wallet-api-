@@ -1,13 +1,14 @@
 import moment from 'moment';
 import db from '../db';
 import query from '../db/queries/auth';
+import { DBError } from '../utils';
 import { moduleErrLogMessager } from '../utils/helpers';
 
 const { createAdmin } = query;
 /**
 /**
- * Contains a schema that describes the user resource on the app.
- * @class userModel
+ * Contains a schema that describes the admin resource on the app.
+ * @class AdminModel
  */
 
 class AdminModel {
@@ -15,7 +16,7 @@ class AdminModel {
      *Creates an instance of AdminModel.
      * @param {object} options - contains the required properties for creating an admin
      * @memberof AdminModel
-     * @returns { AdminModel } - An instance of the User Model.
+     * @returns { AdminModel } - An instance of the AdminModel Model.
      * @constructor UserModel
      */
   constructor(options) {
@@ -32,6 +33,11 @@ class AdminModel {
     this.updated_at = moment();
   }
 
+  /**
+     * save an admin details in the database
+     * @returns { object } - an object containing the admin's details
+     * @memberof AdminModel
+     */
   async save() {
     try {
       return db.oneOrNone(createAdmin, [

@@ -141,9 +141,8 @@ const validateLoginSchema = async(req, res, next) => {
 const loginEmailValidator = async(req, res, next) => {
   try {
     const { email, userType } = req.body;
-    let getDetails;
-    getDetails = userType === 'Admin' ? fetchAdminByEmail : userType === 'Client' ? getUserByEmail : null;
-    const details = await getDetails(email);
+    const getDetails = userType === 'Admin' ? fetchAdminByEmail(email) : userType === 'Client' ? getUserByEmail(email) : null;
+    const details = await getDetails;
     if (!details) {
       logger.error('User not found in in method : loginEmailValidator in middlewares > auth > basic.js');
       return errorResponse(req, res, genericErrors.inValidLogin);

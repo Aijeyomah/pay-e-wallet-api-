@@ -4,7 +4,20 @@ import { DBError } from '../utils';
 import { moduleErrLogMessager } from '../utils/helpers';
 
 const { createUser } = query;
+
+/**
+/**
+ * Contains a schema that describes the user resource on the app.
+ * @class UserModel
+ */
 class UserModel {
+  /**
+     * Creates an instance of UserModel.
+     * @param {object} options - contains the required properties for creating a user
+     * @memberof UserModel
+     * @returns { UserModel } - An instance of the UserModel Model.
+     * @constructor UserModel
+     */
   constructor(options) {
     this.id = options.id;
     this.first_name = options.firstName;
@@ -15,6 +28,11 @@ class UserModel {
     this.phone_number = options.phoneNumber;
   }
 
+  /**
+     * save a user details in the database
+     * @returns { object } - an object containing the user's details
+     * @memberof UserModel
+     */
   async save() {
     try {
       logger.info('Saving Users details.....');

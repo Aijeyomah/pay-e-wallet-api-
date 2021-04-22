@@ -2,11 +2,11 @@ import bcrypt from 'bcrypt';
 import { sha256 } from 'js-sha256';
 import jwt from 'jsonwebtoken';
 import { v4 as uuidV4 } from 'uuid';
-import config from '../../config';
-// import { genericErrors } from './index';
-import {
-  constants, DBError, ModuleError, genericErrors,
-} from '.';
+import config from '../../config/env';
+import ModuleError from './error/module.error';
+import DBError from './error/db.error';
+import constants from './constants';
+import genericErrors from './error/generic';
 import db from '../db';
 
 const { SUCCESS_RESPONSE, SUCCESS, FAIL } = constants;
@@ -52,17 +52,21 @@ const makeError = ({ error, status, errors }, isDBError = true) => {
   return err;
 };
 /**
- * @returns - a unique identification number
+ * @returns { string} - a unique identification number
  */
 const generateId = () => uuidV4();
 
 /**
- * @returns - a unique identification number
+ * @param { string } prefix - a value to appended tp the generated string
+ * @returns {string} - a unique identification number
  */
 const generateUniqueId = (prefix) => `${prefix}-${Math.random().toString(10).substr(2, 5)}`;
 
-/** regenerate id if it already exist in the db;
- * @returns - a unique identification number
+/**
+ * regenerate id if it already exist in the db
+ *  @param { string } prefix - a value to appended tp the generated string
+ *  @param { string } query - a query to fetch data from the db
+ * @returns {string} - a unique identification string
  */
 const regenerateUniqueId = async(prefix, query) => {
   const id = generateUniqueId(prefix);

@@ -1,1 +1,1 @@
-DROP TABLE bank_details 
+DROP TABLE user_withdrawal_bank_details 

@@ -1,10 +1,21 @@
 import UserModel from '../../../models/user';
-import { successResponse, hashPassword, regenerateUniqueId } from '../../../utils/helpers';
-import { ApiError, constants, genericErrors } from '../../../utils';
+import {
+  successResponse, hashPassword, regenerateUniqueId, ApiError, constants,
+} from '../../../utils';
 import queries from '../../../db/queries/auth';
 
-const { CREATE_USER_SUCCESSFULLY, CREATE_ADMIN_FAILED } = constants;
+const { CREATE_USER_SUCCESSFULLY, CREATE_USER_FAILED } = constants;
 const { getUserById } = queries;
+
+/**
+ * create a user.
+ *
+ * @param { Request } req - The request from the endpoint.
+ * @param { Response } res - The response returned by the method.
+ * @param { Function } next - Calls the next handler.
+ * @returns { JSON } A JSON response with the registered admin's details and a JWT.
+ * @memberof authController
+ */
 const userSignUp = async(req, res, next) => {
   try {
     const { password } = req.body;
@@ -22,7 +33,7 @@ const userSignUp = async(req, res, next) => {
     });
   } catch (e) {
     logger.error(e);
-    next(new ApiError({ message: CREATE_ADMIN_FAILED, errors: e.message }));
+    next(new ApiError({ message: CREATE_USER_FAILED, errors: e.message }));
   }
 };
 

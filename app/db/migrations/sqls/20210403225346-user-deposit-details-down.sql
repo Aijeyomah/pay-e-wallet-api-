@@ -1,0 +1,1 @@
+DROP TABLE user_deposit_bank_details 

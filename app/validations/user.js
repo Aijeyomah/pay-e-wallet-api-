@@ -25,3 +25,9 @@ export const createUserSchema = Joi.object({
   phoneNumber: textSchema(Joi, 'phone_number', 11, 6),
   userType: textSchema(Joi, 'userType', 10, 5),
 });
+
+export const bankDetails = Joi.object({
+  bank_code: textSchema(Joi, 'bank_code', 1, 10),
+  account_name: textSchema(Joi, 'bank_code', 1, 10),
+  account_number: textSchema(Joi, 'account_number', 10, 10),
+});

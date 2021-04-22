@@ -11,6 +11,10 @@ const {
   EMAIL_CONFLICT,
   EMAIL_EXIST_VERIFICATION_FAIL_MSG,
   PHONE_NUMBER_CONFLICT,
+  INVALID_PASSWORD_MATCH,
+  ACCOUNT_NUMBER_CONFLICT,
+  INVALID_ACCOUNT_NUMBER,
+  ERROR_VERIFYING_BANK_ACCOUNT,
 } = constants;
 
 export default {
@@ -24,5 +28,9 @@ export default {
   emailConflict: new ApiError({ status: 409, message: EMAIL_CONFLICT }),
   phoneNumberConflict: new ApiError({ status: 409, message: PHONE_NUMBER_CONFLICT() }),
   verificationError: new ApiError({ message: EMAIL_EXIST_VERIFICATION_FAIL_MSG }),
-
+  invalidPasswordMatch: new ApiError({ status: 401, message: INVALID_PASSWORD_MATCH }),
+  accountNumberConflict: new ApiError({ status: 409, message: ACCOUNT_NUMBER_CONFLICT }),
+  invalidAccountNumber: new ApiError({ status: 409, message: INVALID_ACCOUNT_NUMBER }),
+  errorVerifyingAccount: new ApiError({ status: 401, message: ERROR_VERIFYING_BANK_ACCOUNT }),
+  paystackError: (paystackMsg) => new ApiError({ status: 401, message: paystackMsg }),
 };

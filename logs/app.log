@@ -1412,3 +1412,900 @@ Error: listen EADDRINUSE: address already in use :::7080
 [Tue, 23 Mar 2021 00:04:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
 [Tue, 23 Mar 2021 00:04:44 GMT] - [32minfo[39m: ::1 - - [23/Mar/2021:00:04:44 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 1090 "-" "PostmanRuntime/7.26.8"
 )
+[Tue, 23 Mar 2021 00:21:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:21:47 GMT] - [32minfo[39m: ::1 - - [23/Mar/2021:00:21:47 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 1090 "-" "PostmanRuntime/7.26.8"
+)
+[Tue, 23 Mar 2021 00:21:51 GMT] - [32minfo[39m: ::1 - - [23/Mar/2021:00:21:51 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 1090 "-" "PostmanRuntime/7.26.8"
+)
+[Tue, 23 Mar 2021 00:22:42 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:22:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:22:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:23:58 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:24:02 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:24:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:24:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:25:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Tue, 23 Mar 2021 00:25:12 GMT] - [32minfo[39m: ::1 - - [23/Mar/2021:00:25:12 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 2269 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 19:51:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 19:51:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:25:05 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/banks/all - GET - ::1 
+    )
+[Wed, 24 Mar 2021 21:25:05 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:25:05 +0000] "GET /api/v1/banks/all HTTP/1.1" 401 76 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:25:10 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:25:10 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 379 "-" "PostmanRuntime/7.26.8"
+)
+2021-03-24T21:25:29.080Z [undefined] [31merror[39m: getaddrinfo ENOTFOUND api.paystack.co Error: getaddrinfo ENOTFOUND api.paystack.co
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+[Wed, 24 Mar 2021 21:25:51 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:25:51 +0000] "GET /api/v1/banks/all HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:25:57 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:25:57 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 1558 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:27:09 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:27:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:27:14 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:27:14 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 2269 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:27:31 GMT] - [31merror[39m: ApiError - 404 - Oops, You have reached a dead end - /api/v1/bank/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:27:31 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:27:31 +0000] "POST /api/v1/bank/confirm-details HTTP/1.1" 404 63 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:28:08 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:28:08 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:28:08 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 401 76 "-" "PostmanRuntime/7.26.8"
+)
+2021-03-24T21:28:35.401Z [undefined] [31merror[39m: Cannot read property 'password' of undefined TypeError: Cannot read property 'password' of undefined
+    at confirmAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:61:18)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at checkIfAccountNumberIsInUse (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/bank.js:12:5)
+[Wed, 24 Mar 2021 21:29:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:29:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:29:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:29:29.533Z [undefined] [31merror[39m: Request failed with status code 401 Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[Wed, 24 Mar 2021 21:29:29 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:29:29 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:29:29 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 206 "-" "PostmanRuntime/7.26.8"
+)
+2021-03-24T21:31:24.736Z [undefined] [31merror[39m: Request failed with status code 401 Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[Wed, 24 Mar 2021 21:31:24 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:31:24 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:31:24 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 206 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:31:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:31:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:31:46 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:31:49.942Z [undefined] [31merror[39m: Request failed with status code 401 Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[Wed, 24 Mar 2021 21:31:49 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:31:49 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:31:49 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 206 "-" "PostmanRuntime/7.26.8"
+)
+2021-03-24T21:32:13.705Z [undefined] [31merror[39m: Request failed with status code 401 Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[Wed, 24 Mar 2021 21:32:13 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:32:13 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:32:13 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 206 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:34:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:34:16.277Z [undefined] [31merror[39m: Request failed with status code 401 Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[Wed, 24 Mar 2021 21:34:16 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:34:16 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:34:16 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 206 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:34:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:34:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:34:58.496Z [undefined] [31merror[39m: Request failed with status code 401 Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:327:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:482:12)
+    at endReadableNT (_stream_readable.js:1221:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[Wed, 24 Mar 2021 21:34:58 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:34:58 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:34:58 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 206 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:35:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:30 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:31 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:33 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:35:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:35:50.326Z [undefined] [31merror[39m: Cannot read property 'data' of undefined TypeError: Cannot read property 'data' of undefined
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:44:44)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:35:50 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:35:50 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:35:50 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 211 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:37:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:38:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:38:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:38:09 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:39:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:39:32.911Z [undefined] [31merror[39m: Cannot destructure property 'data' of '(intermediate value)' as it is undefined. TypeError: Cannot destructure property 'data' of '(intermediate value)' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:43:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:39:32 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:39:32 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:39:32 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 251 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:39:46 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:39:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:39:56.846Z [undefined] [31merror[39m: Cannot destructure property 'account_name' of 'data' as it is undefined. TypeError: Cannot destructure property 'account_name' of 'data' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:45:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:39:56 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:39:56 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:39:56 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 243 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:40:49 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:41:05.940Z [undefined] [31merror[39m: Cannot destructure property 'account_name' of 'data' as it is undefined. TypeError: Cannot destructure property 'account_name' of 'data' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:45:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:41:05 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:41:05 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:41:05 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 243 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:42:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:44:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:44:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:44:14 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:44:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:44:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:45:14.832Z [undefined] [31merror[39m: Cannot destructure property 'account_name' of 'data' as it is undefined. TypeError: Cannot destructure property 'account_name' of 'data' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:45:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:45:14 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:45:14 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:45:14 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 243 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:46:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:46:18 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:46:18 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:47:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:47:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:48:01 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:48:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:48:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:48:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:48:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:48:33 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:48:39.872Z [undefined] [31merror[39m: Cannot destructure property 'account_name' of 'data' as it is undefined. TypeError: Cannot destructure property 'account_name' of 'data' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:45:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:48:39 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:48:39 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:48:39 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 243 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:51:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:51:17 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:51:24.921Z [undefined] [31merror[39m: Cannot destructure property 'account_name' of 'data' as it is undefined. TypeError: Cannot destructure property 'account_name' of 'data' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:45:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:51:24 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:51:24 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:51:24 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 243 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:53:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:53:02 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:53:08 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:53:08 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:53:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:53:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:53:52.220Z [undefined] [31merror[39m: Cannot destructure property 'account_name' of 'data' as it is undefined. TypeError: Cannot destructure property 'account_name' of 'data' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:45:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:53:52 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:53:52 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:53:52 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 243 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:54:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:54:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:54:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:55:31 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:56:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:56:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T21:56:38.793Z [undefined] [31merror[39m: Cannot destructure property 'account_name' of 'data' as it is undefined. TypeError: Cannot destructure property 'account_name' of 'data' as it is undefined.
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:45:17)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Wed, 24 Mar 2021 21:56:38 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 21:56:38 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:56:38 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 243 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:57:10 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:57:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:57:18 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:57:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:59:09 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:21:59:09 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 21:59:31 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 21:59:58 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:09 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:22 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:31 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:00:48 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:01:02 GMT] - [31merror[39m: ApiError - 401 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:01:02 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:01:02 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 401 159 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:02:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:02:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:02:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:02:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:02:34 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:02:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:02:42 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:05:52 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:05:52 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:06:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:06:31 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:07:33 GMT] - [31merror[39m: ApiError - 401 - Access denied,a valid access token is required - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:07:33 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:07:33 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 401 76 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:07:39 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:07:39 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 379 "-" "PostmanRuntime/7.26.8"
+)
+2021-03-24T22:07:59.751Z [undefined] [31merror[39m: Cannot read property 'password' of undefined TypeError: Cannot read property 'password' of undefined
+    at confirmAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/bank/index.js:66:18)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:275:10)
+    at authenticate (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:52:5)
+[Wed, 24 Mar 2021 22:08:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:08:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:08:58 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:09:43 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:11:37 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:11:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:11:50 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T22:11:59.228Z [undefined] [31merror[39m: getDetails is not a function TypeError: getDetails is not a function
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:145:27)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:275:10)
+    at authenticate (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:52:5)
+[Wed, 24 Mar 2021 22:11:59 GMT] - [31merror[39m: TypeError - TypeError: getDetails is not a function in method : loginEmailValidator in middlewares > auth > basic.js - getDetails is not a function - TypeError: getDetails is not a function
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:145:27)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:275:10)
+    at Function.handle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:174:3)
+    at router (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:317:13)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/index.js:275:10)
+    at authenticate (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:52:5))
+[Wed, 24 Mar 2021 22:11:59 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of email, try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:11:59 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:11:59 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:12:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:13:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:13:08 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:13:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:13:18 GMT] - [31merror[39m: User not found in in method : loginEmailValidator in middlewares > auth > basic.js)
+[Wed, 24 Mar 2021 22:13:18 GMT] - [31merror[39m: ApiError - 401 - Invalid email/password - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:13:18 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:13:18 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:14:33 GMT] - [31merror[39m: User not found in in method : loginEmailValidator in middlewares > auth > basic.js)
+[Wed, 24 Mar 2021 22:14:33 GMT] - [31merror[39m: ApiError - 401 - Invalid email/password - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:14:33 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:14:33 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:15:26 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:15:26 GMT] - [31merror[39m: DbError - 500 - invalid input syntax for type integer: "IJEOMA FAVOUR ETI" - undefined)
+2021-03-24T22:15:26.503Z [undefined] [31merror[39m: invalid input syntax for type integer: "IJEOMA FAVOUR ETI" undefined
+[Wed, 24 Mar 2021 22:18:14 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:18:16 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:18:16 GMT] - [31merror[39m: DbError - 500 - null value in column "bank_code" violates not-null constraint - undefined)
+2021-03-24T22:18:16.677Z [undefined] [31merror[39m: null value in column "bank_code" violates not-null constraint undefined
+[Wed, 24 Mar 2021 22:18:53 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:18:53 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:18:54 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:18:54 GMT] - [31merror[39m: DbError - 500 - null value in column "user_id" violates not-null constraint - undefined)
+2021-03-24T22:18:54.541Z [undefined] [31merror[39m: null value in column "user_id" violates not-null constraint undefined
+[Wed, 24 Mar 2021 22:19:41 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:19:42 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:19:42 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:19:42 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:21:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:21:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:21:39 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:21:39 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:21:39 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:22:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:22:48 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:22:48 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:22:48 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:22:48 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:22:50 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:22:50 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:22:50 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:23:06 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:23:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T22:23:27.394Z [undefined] [31merror[39m: accountNumber is not defined ReferenceError: accountNumber is not defined
+    at checkIfAccountNumberIsInUse (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/bank.js:8:103)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:151:9)
+[Wed, 24 Mar 2021 22:23:27 GMT] - [31merror[39m: ReferenceError - ReferenceError: accountNumber is not defined in method : loginEmailValidator in middlewares > user > bank.js - accountNumber is not defined - ReferenceError: accountNumber is not defined
+    at checkIfAccountNumberIsInUse (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/bank.js:8:103)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:151:9))
+[Wed, 24 Mar 2021 22:23:27 GMT] - [31merror[39m: ApiError - 500 - Error verifying existence of email, try again. - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:23:27 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:23:27 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 76 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:24:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:24:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:24:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T22:24:59.878Z [undefined] [31merror[39m: accountNumber is not defined ReferenceError: accountNumber is not defined
+    at checkIfAccountNumberIsInUse (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/bank.js:8:103)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:151:9)
+[Wed, 24 Mar 2021 22:24:59 GMT] - [31merror[39m: ReferenceError - undefined - accountNumber is not defined - ReferenceError: accountNumber is not defined
+    at checkIfAccountNumberIsInUse (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/bank.js:8:103)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at loginEmailValidator (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/auth/basic.js:151:9))
+[Wed, 24 Mar 2021 22:24:59 GMT] - [31merror[39m: ApiError - 409 - The bank account you entered is already in use on Ewallet. Please add a unique bank account to proceed - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:24:59 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:24:59 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 409 132 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:25:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:25:18 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-03-24T22:25:21.113Z [undefined] [31merror[39m: Multiple rows were not expected. QueryResultError: Multiple rows were not expected.
+    at Query.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-promise/lib/query.js:193:41)
+    at Query.handleReadyForQuery (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg/lib/query.js:122:12)
+    at Client._handleReadyForQuery (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg/lib/client.js:281:19)
+    at Connection.emit (events.js:315:20)
+    at Connection.EventEmitter.emit (domain.js:482:12)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg/lib/connection.js:109:12
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+[Wed, 24 Mar 2021 22:25:21 GMT] - [31merror[39m: QueryResultError - undefined - Multiple rows were not expected. - QueryResultError: Multiple rows were not expected.
+    at Query.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-promise/lib/query.js:193:41)
+    at Query.handleReadyForQuery (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg/lib/query.js:122:12)
+    at Client._handleReadyForQuery (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg/lib/client.js:281:19)
+    at Connection.emit (events.js:315:20)
+    at Connection.EventEmitter.emit (domain.js:482:12)
+    at /Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg/lib/connection.js:109:12
+    at Parser.parse (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/parser.js:40:17)
+    at Socket.<anonymous> (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/pg-protocol/dist/index.js:8:42)
+    at Socket.emit (events.js:315:20)
+    at Socket.EventEmitter.emit (domain.js:482:12)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23))
+[Wed, 24 Mar 2021 22:25:21 GMT] - [31merror[39m: ApiError - 409 - The bank account you entered is already in use on Ewallet. Please add a unique bank account to proceed - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:25:21 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:25:21 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 409 132 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:25:48 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:25:54 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:25:54 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:25:54 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:25:56 GMT] - [31merror[39m: ApiError - 409 - The bank account you entered is already in use on Ewallet. Please add a unique bank account to proceed - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:25:56 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:25:56 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 409 132 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:26:29 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:26:29 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:27:29 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:27:29 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:27:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:27:55 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:27:55 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:28:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:28:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Wed, 24 Mar 2021 22:28:17 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:28:17 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:29:04 GMT] - [32minfo[39m: Saving bank details.....)
+[Wed, 24 Mar 2021 22:29:04 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:29:04 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)
+[Wed, 24 Mar 2021 22:29:38 GMT] - [31merror[39m: ApiError - 409 - The bank account you entered is already in use on Ewallet. Please add a unique bank account to proceed - /api/v1/banks/verify-details - POST - ::1 
+    )
+[Wed, 24 Mar 2021 22:29:38 GMT] - [32minfo[39m: ::1 - - [24/Mar/2021:22:29:38 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 409 132 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 25 Mar 2021 14:14:20 GMT] - [31merror[39m: ApiError - 404 - Oops, You have reached a dead end - /api/v1/group/1/group-members?type=savings%20group - GET - ::1 
+    )
+[Thu, 25 Mar 2021 14:14:20 GMT] - [32minfo[39m: ::1 - - [25/Mar/2021:14:14:20 +0000] "GET /api/v1/group/1/group-members?type=savings%20group HTTP/1.1" 404 63 "-" "PostmanRuntime/7.26.8"
+)
+[Sat, 27 Mar 2021 14:40:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Sat, 27 Mar 2021 14:43:51 GMT] - [32minfo[39m: ::1 - - [27/Mar/2021:14:43:51 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 379 "-" "PostmanRuntime/7.26.8"
+)
+[Sat, 27 Mar 2021 14:44:34 GMT] - [32minfo[39m: ::1 - - [27/Mar/2021:14:44:34 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 2269 "-" "PostmanRuntime/7.26.8"
+)
+[Sat, 27 Mar 2021 14:44:45 GMT] - [31merror[39m: ApiError - 409 - The bank account you entered is already in use on Ewallet. Please add a unique bank account to proceed - /api/v1/banks/verify-details - POST - ::1 
+    )
+[Sat, 27 Mar 2021 14:44:45 GMT] - [32minfo[39m: ::1 - - [27/Mar/2021:14:44:45 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 409 132 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:21:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:21:52 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:21:52 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 379 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:28:46 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:30:55 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:32:26 GMT] - [31merror[39m: ApiError - 401 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/verify-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:32:26 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:32:26 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 401 159 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:32:50 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:32:50 +0000] "GET /api/v1/banks/all HTTP/1.1" 200 2269 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:33:17 GMT] - [31merror[39m: ApiError - 401 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/verify-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:33:17 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:33:17 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 401 159 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:34:48 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:34:53 GMT] - [31merror[39m: ApiError - 401 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/verify-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:34:53 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:34:53 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 401 159 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:35:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:35:21 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:35:21 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:35:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:35:57 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-09T11:36:00.360Z [undefined] [31merror[39m: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'ClientRequest'
+    |     property 'socket' -> object with constructor 'TLSSocket'
+    --- property '_httpMessage' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/response.js:1123:12)
+    at ServerResponse.json (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/response.js:260:14)
+    at successResponse (/Users/aijey_omah/Documents/clock/E-wallet/app/utils/helpers.js:19:23)
+    at verifyBankAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:64:62)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Fri, 09 Apr 2021 11:36:00 GMT] - [31merror[39m: ApiError - 500 - This bank account (possibly a virtual bank account) is not allowed on 
+    Ewallet at this time, please change it and try again. - /api/v1/banks/verify-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:36:00 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:36:00 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 500 388 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:36:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:36:44 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:36:46 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:36:46 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:37:12 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:37:18 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:37:18 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 106 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:37:32 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:37:34 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:37:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:37:47 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:37:49 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:37:49 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 200 212 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:39:53 GMT] - [31merror[39m: ApiError - 404 - Oops, You have reached a dead end - /api/v1/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:39:53 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:39:53 +0000] "POST /api/v1/confirm-details HTTP/1.1" 404 63 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:40:11 GMT] - [31merror[39m: User not found in in method : loginEmailValidator in middlewares > auth > basic.js)
+[Fri, 09 Apr 2021 11:40:11 GMT] - [31merror[39m: ApiError - 401 - Invalid email/password - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:40:11 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:40:11 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 401 52 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:41:23 GMT] - [31merror[39m: Error - undefined - Request failed with status code 404 - Error: Request failed with status code 404
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Fri, 09 Apr 2021 11:41:23 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'data' of undefined - TypeError: Cannot read property 'data' of undefined
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:71:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Fri, 09 Apr 2021 11:41:23 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:41:23 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:41:23 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:42:08 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:42:14 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:42:17 GMT] - [31merror[39m: Error - undefined - Request failed with status code 404 - Error: Request failed with status code 404
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Fri, 09 Apr 2021 11:42:17 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'data' of undefined - TypeError: Cannot read property 'data' of undefined
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:72:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Fri, 09 Apr 2021 11:42:17 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:42:17 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:42:17 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:42:38 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:42:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:42:55 GMT] - [31merror[39m: Error - undefined - Request failed with status code 404 - Error: Request failed with status code 404
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Fri, 09 Apr 2021 11:42:55 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'data' of undefined - TypeError: Cannot read property 'data' of undefined
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:72:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Fri, 09 Apr 2021 11:42:55 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:42:55 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:42:55 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:43:25 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:43:30 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:43:34 GMT] - [31merror[39m: Error - undefined - Request failed with status code 404 - Error: Request failed with status code 404
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Fri, 09 Apr 2021 11:43:34 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'data' of undefined - TypeError: Cannot read property 'data' of undefined
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:72:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Fri, 09 Apr 2021 11:43:34 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 11:43:34 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:11:43:34 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 11:45:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:45:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:45:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:45:44 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 11:46:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 12:11:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 12:12:02 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 12:12:57 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 12:13:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 12:13:21 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 12:13:24 GMT] - [31merror[39m: TypeError - undefined - Cannot destructure property 'recipient_code' of 'result.data.data' as it is undefined. - TypeError: Cannot destructure property 'recipient_code' of 'result.data.data' as it is undefined.
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:73:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Fri, 09 Apr 2021 12:13:24 GMT] - [31merror[39m: ApiError - 500 - Oops, something broke on the server!!! - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 12:13:24 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:12:13:24 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 68 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 12:13:53 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-09T12:13:59.008Z [undefined] [31merror[39m: Cannot destructure property 'recipient_code' of 'data.data' as it is undefined. TypeError: Cannot destructure property 'recipient_code' of 'data.data' as it is undefined.
+    at confirmAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:89:13)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:82:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Fri, 09 Apr 2021 12:13:59 GMT] - [31merror[39m: ApiError - 500 - Successfully saved bank account details - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 12:13:59 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:12:13:59 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 160 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 12:14:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-09T12:14:39.693Z [undefined] [31merror[39m: Cannot read property 'bank_name' of undefined TypeError: Cannot read property 'bank_name' of undefined
+    at confirmAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:89:44)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:82:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Fri, 09 Apr 2021 12:14:39 GMT] - [31merror[39m: ApiError - 500 - Successfully saved bank account details - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 12:14:39 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:12:14:39 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 126 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 12:14:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-09T13:07:38.019Z [undefined] [31merror[39m: Cannot read property 'bank_name' of undefined TypeError: Cannot read property 'bank_name' of undefined
+    at confirmAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:89:44)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:82:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Fri, 09 Apr 2021 13:07:38 GMT] - [31merror[39m: ApiError - 500 - Successfully saved bank account details - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 13:07:38 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:13:07:38 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 126 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 13:07:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 13:08:00 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 13:08:04 GMT] - [32minfo[39m: e-wallet running on port 7080)
+2021-04-09T13:08:08.939Z [undefined] [31merror[39m: bank_name is not defined ReferenceError: bank_name is not defined
+    at confirmAccountDetails (/Users/aijey_omah/Documents/clock/E-wallet/app/controllers/user/transaction/index.js:102:13)
+    at Layer.handle [as handle_request] (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/express/lib/router/route.js:137:13)
+    at getUserTransferRecipient (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:82:20)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[Fri, 09 Apr 2021 13:08:08 GMT] - [31merror[39m: ApiError - 500 - Successfully saved bank account details - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Fri, 09 Apr 2021 13:08:08 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:13:08:08 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 500 105 "-" "PostmanRuntime/7.26.8"
+)
+[Fri, 09 Apr 2021 13:10:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 13:10:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Fri, 09 Apr 2021 13:12:26 GMT] - [32minfo[39m: Saving bank details.....)
+[Fri, 09 Apr 2021 13:12:26 GMT] - [32minfo[39m: ::1 - - [09/Apr/2021:13:12:26 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 200 72 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 13:54:20 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 13:59:14 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:00:32 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:00:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:24:12 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:24:12 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 379 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:24:36 GMT] - [31merror[39m: ApiError - 409 - The bank account you entered is already in use on Ewallet. Please add a unique bank account to proceed - /api/v1/banks/verify-details - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:24:36 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:24:36 +0000] "POST /api/v1/banks/verify-details HTTP/1.1" 409 132 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:25:14 GMT] - [31merror[39m: ApiError - 409 - The bank account you entered is already in use on Ewallet. Please add a unique bank account to proceed - /api/v1/banks/confirm-details - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:25:14 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:25:14 +0000] "POST /api/v1/banks/confirm-details HTTP/1.1" 409 132 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:31:03 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:31:03 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:31:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:31:40 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:31:45 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:31:48 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:31:48 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:44:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:32:26 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:32:29 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:32:31 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:32:31 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:44:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:32:44 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:32:55 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:32:55 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:33:23 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:33:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:33:28 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:33:30 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:33:30 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:33:39 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:33:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:33:56 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:34:13 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:34:19 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:34:19 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:34:30 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:34:35 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:34:49 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:34:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:34:56 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:34:56 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:35:15 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:35:19 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:35:25 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:35:25 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:36:08 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:36:12 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:36:12 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:36:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:36:26 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:36:26 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:36:41 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:36:42 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:36:44 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:36:44 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:37:00 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:37:00 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" - - "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:37:24 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:37:52 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:37:54 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:38:27 GMT] - [31merror[39m: Error - undefined - Request failed with status code 401 - Error: Request failed with status code 401
+    at createError (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/createError.js:16:15)
+    at settle (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/aijey_omah/Documents/clock/E-wallet/node_modules/axios/lib/adapters/http.js:260:11)
+    at IncomingMessage.emit (events.js:326:22)
+    at IncomingMessage.EventEmitter.emit (domain.js:483:12)
+    at endReadableNT (_stream_readable.js:1241:12)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21))
+[Thu, 22 Apr 2021 14:38:27 GMT] - [31merror[39m: TypeError - undefined - Cannot read property 'status' of undefined - TypeError: Cannot read property 'status' of undefined
+    at verifyPaymentTransaction (/Users/aijey_omah/Documents/clock/E-wallet/app/middlewares/user/transaction.js:43:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5))
+[Thu, 22 Apr 2021 14:39:51 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:40:05 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:40:11 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:40:17 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:40:44 GMT] - [31merror[39m: ApiError - 401 - The transaction was not completed - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:40:44 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:40:44 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 63 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:41:07 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:41:27 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:42:03 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:42:06 GMT] - [32minfo[39m: e-wallet running on port 7080)
+[Thu, 22 Apr 2021 14:42:09 GMT] - [31merror[39m: ApiError - 401 - The transaction was not completed - /api/v1/banks/connect-card/e3adcp74bh - POST - ::1 
+    )
+[Thu, 22 Apr 2021 14:42:09 GMT] - [32minfo[39m: ::1 - - [22/Apr/2021:14:42:09 +0000] "POST /api/v1/banks/connect-card/e3adcp74bh HTTP/1.1" 401 63 "-" "PostmanRuntime/7.26.8"
+)
+[Thu, 22 Apr 2021 14:44:01 GMT] - [32minfo[39m: e-wallet running on port 7080)
